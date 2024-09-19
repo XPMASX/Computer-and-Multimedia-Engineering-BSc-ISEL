@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Project_48965</string>
+    <string name="web_client_id" translatable="false">423582253065-l64p2v5hmefvm9o6sp7c9eh0ujhir495.apps.googleusercontent.com</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="menu_home" translatable="false">Home</string>
+    <string name="menu_gallery" translatable="false">Gallery</string>
+    <string name="menu_backlog" translatable="false">Backlog</string>
+    <string name="search">Search</string>
+    <string name="search...">Search...</string>
+    <string name="menu_sign_out">Sign Out</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_search">Search\n</string>
+    <string name="back_button">Go back</string>
+    <string name="menu_change_profile">Change Profile</string>
+    <string name="rating">Rating:</string>
+    <string name="my_games">My Games</string>
+    <string name="menu_my_games">My Games</string>
+    <string name="menu_Profile">Profile</string>
+    <string name="write_a_review">Write a review...</string>
+    <string name="similar_games">Similar Games</string>
+    <string name="platform">Available On:</string>
+    <string name="backlog" translatable="false">Backlog:</string>
+    <string name="played_games">Played Games:</string>
+    <string name="change_profile">Change Profile</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="email_a48965_gmail_com" translatable="false">Email: a48965@gmail.com</string>
+    <string name="pedro_silva_a48965" translatable="false">Pedro Silva A48965</string>
+    <string name="menu_about">About</string>
+</resources>

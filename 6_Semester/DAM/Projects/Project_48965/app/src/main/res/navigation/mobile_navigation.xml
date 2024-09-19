@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="dam.a48965.project_48965.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_played"
+        android:name="dam.a48965.project_48965.ui.played.PlayedFragment"
+        android:label="@string/menu_my_games"
+        tools:layout="@layout/fragment_played" />
+
+    <fragment
+        android:id="@+id/nav_backlog"
+        android:name="dam.a48965.project_48965.ui.backlog.BacklogFragment"
+        android:label="@string/menu_backlog"
+        tools:layout="@layout/fragment_backlog" />
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="dam.a48965.project_48965.ui.search.SearchFragment"
+        android:label="@string/menu_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="dam.a48965.project_48965.ui.profile.ProfileFragment"
+        android:label="@string/menu_Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="dam.a48965.project_48965.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_change_profile"
+        android:name="dam.a48965.project_48965.ui.changeProfile.ChangeProfileFragment"
+        android:label="@string/menu_change_profile"
+        tools:layout="@layout/fragment_change_profile" />
+
+    <fragment
+        android:id="@+id/gameDetailFragment"
+        android:name="dam.a48965.project_48965.ui.gameDetail.GameDetailFragment"
+        tools:layout="@layout/fragment_game" >
+        <argument
+            android:name="game"
+            app:argType="dam.a48965.project_48965.model.Game" />
+        <action
+            android:id="@+id/action_gameDetailFragment"
+            app:destination="@id/gameDetailFragment" />
+    </fragment>
+
+</navigation>

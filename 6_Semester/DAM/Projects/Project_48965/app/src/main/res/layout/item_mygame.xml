@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="MyGame"
+            type="dam.a48965.project_48965.model.RecGameApi" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/relativeLayoutBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/image_game_cover"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitXY"
+            tools:src="@drawable/placeholder_cover" />
+
+        <TextView
+            android:id="@+id/text_game_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="Game Title" />
+
+    </LinearLayout>
+</layout>

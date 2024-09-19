@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Project_48965</string>
+    <string name="search">Buscar</string>
+    <string name="search...">Buscar...</string>
+    <string name="menu_profile">Perfil</string>
+    <string name="back_button">Regresa</string>
+    <string name="menu_change_profile">Cambiar el perfil</string>
+    <string name="rating">Clasificación:</string>
+    <string name="my_games">Mis juegos</string>
+    <string name="menu_my_games">Mis juegos</string>
+    <string name="menu_Profile">Perfil</string>
+    <string name="write_a_review">Escribe una reseña...</string>
+    <string name="similar_games">Juegos similares</string>
+    <string name="platform">Disponible en:</string>
+    <string name="menu_sign_out">Desconectar</string>
+    <string name="menu_search">Buscar...</string>
+    <string name="played_games">Juegos jugados:</string>
+    <string name="change_profile">Cambiar el perfil</string>
+    <string name="sign_out">Desconectar</string>
+    <string name="menu_about">Acerca</string>
+</resources>

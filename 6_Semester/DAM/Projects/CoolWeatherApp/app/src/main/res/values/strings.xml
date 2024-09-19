@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Cool Weather App</string>
+    <string name="lblLat" translatable="false">Latitude</string>
+    <string name="lblLong" translatable="false">Longitude</string>
+    <string name="lblSea">Sea Level Pressure</string>
+    <string name="lblTemp">Temperature</string>
+    <string name="lblTime">Time</string>
+    <string name="lblWDir">Wind Direction</string>
+    <string name="lblWSpeed">Wind Speed</string>
+    <string name="txtLat" translatable="false">0.0</string>
+    <string name="txtLong" translatable="false">-0.0</string>
+    <string name="txtSea" translatable="false">TextView</string>
+    <string name="txtTemp" translatable="false">TextView</string>
+    <string name="txtTime" translatable="false">TextView</string>
+    <string name="txtWDir" translatable="false">TextView</string>
+    <string name="txtWSpeed" translatable="false">TextView</string>
+    <string name="imgDesc" translatable="false">Weather</string>
+    <string name="btnUpdate">Update</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Other styles -->
+
+    <style name="MyRatingBar" parent="Widget.AppCompat.RatingBar">
+        <item name="colorControlNormal">#FFFFFF</item> <!-- Default color -->
+        <item name="colorControlActivated">?attr/colorSecondaryVariant</item> <!-- Selected color -->
+        <item name="colorControlHighlight">?attr/colorSecondaryVariant</item> <!-- Hover color -->
+    </style>
+</resources>

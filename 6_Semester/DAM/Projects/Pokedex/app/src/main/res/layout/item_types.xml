@@ -1,0 +1,42 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.PokemonDetailActivity"
+    >
+
+    <data>
+        <import type="dam.a48965.pokedex.ui.ViewBinding" />
+        <variable
+            name="pkDetail"
+            type="dam.a48965.pokedex.model.PokemonDetail" />
+
+    </data>
+
+<!-- item_types.xml -->
+    <LinearLayout
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_background"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp">
+
+        <ImageView
+            android:id="@+id/typeImageView"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="6dp"
+            android:src="@drawable/dragon" />
+
+        <TextView
+            android:id="@+id/typeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text 1"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</layout>
