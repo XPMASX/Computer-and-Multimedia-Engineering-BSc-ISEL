@@ -1,0 +1,5 @@
+Todo o conteúdo relevante para o projeto foi devidamente organizado em outras pastas específicas, cada uma contendo os ficheiros e informações necessárias para sua respetiva funcionalidade. 
+
+Consideramos que a inclusão de ficheiros na pasta "Teste" não é necessária, pois todas as necessidades do projeto já estão atendidas pelas outras pastas. 
+
+Manter a pasta "Teste" vazia contribui na mesma para uma estrutura organizada, facilitando a navegação e a gestão do projeto.
