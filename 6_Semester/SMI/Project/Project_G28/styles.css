@@ -1,0 +1,15 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.content {
+    padding: 20px;
+    flex-grow: 1;
+}

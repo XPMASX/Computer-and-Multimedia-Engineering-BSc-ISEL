@@ -1,0 +1,278 @@
+body {
+    background-color: #fffaf0;
+}
+
+h1 {
+    font-family:      "lucida calligraphy", arial, 'sans serif'; 
+    color:            blueviolet;
+    text-align:       center;
+}
+
+h2 {
+    font-family:      "lucida calligraphy", arial, 'sans serif'; 
+    color:            blue;
+    text-align:       center;
+}
+
+.mainPageEntry {
+    font-size:      larger;
+}
+
+
+table.phd {
+    width:            80%;
+    margin-left:      auto;
+    margin-right:     auto;
+}
+
+td.phd {
+    border-bottom:    2px solid;
+}
+
+th.frequency {
+    border-top:       4px solid;
+    border-bottom:    2px solid;
+    width:            20%;
+}
+
+th.localMaxs {
+    border-top:       4px solid;
+    border-bottom:    2px solid;
+    width:            20%;
+}
+
+th.ngram {
+    border-top:       4px solid;
+    border-bottom:    2px solid;
+    width:            80%;
+}
+
+th.phd {
+    border-top:       4px solid;
+    border-bottom:    2px solid;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    img.bigScreen {
+        display: none;
+    }
+
+    img.smallScreen {
+        display: block;
+    }
+   
+    div.bigScreen {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    img.bigScreen {
+        display: block;
+   }
+
+    img.smallScreen {
+        display: none;
+   }
+}
+
+.visitorContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.visitorText {
+    float:  left;
+}
+
+.visitorIcon {
+}
+
+.autocomplete-suggestion {
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+}
+.autocomplete-suggestion:hover {
+    background-color: #e9e9e9;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+}
+.user-info div {
+    font-weight: bold;
+    text-align: right;
+    margin-right: 10px;
+}
+.search-form {
+    position: relative;
+}
+.search-input {
+    padding-right: 30px;
+}
+.search-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.actions {
+    display: flex;
+    align-items: center;
+}
+.actions form {
+    margin-right: 10px;
+}
+#livesearch {
+    position: absolute;
+    background: white;
+    z-index: 1000;
+    width: 100%;
+}
+
+#imageContainer {
+    flex: 1;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    width: 30%;
+}
+
+.titleClass {
+    text-align: left;
+}
+
+#mainContent {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#sideBarContainer {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 100%;
+}
+
+#contentContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: auto;
+    width: 100%;
+}
+
+#titleRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 30px;
+    margin-top: 30px;
+    padding-bottom: 0;
+}
+
+#content {
+    flex: 2;
+    overflow: auto;
+    display: flex;
+    padding: 10px;
+}
+
+#formContainer {
+    flex: 1;
+    overflow: auto;
+}
+
+#filePropertiesTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#filePropertiesTable th, #filePropertiesTable td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#toggleButton {
+    margin: 10px;
+}
+
+.lockIcon {
+    font-size: 20px;
+    text-align: right;
+    cursor: pointer;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+#containerDiv {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+#containerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contentDiv {
+    flex: 1;
+    width: 100%;
+}
+
+#thumbnailTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#thumbnailTable td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#thumbnailTable img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+#thumbnailTable a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+.userRow {
+    margin-bottom: 20px;
+}
+
+.userRow div {
+    margin-left: 10px;
+}
