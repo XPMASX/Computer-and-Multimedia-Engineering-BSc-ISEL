@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="PCM Final Project - Visual Search">
+    <meta name="keywords" content="HTML5, CSS, JavaScript">
+    <meta name="author" content="Rui Jesus">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <title>Visual Search</title>
+    <link rel="stylesheet" href="css/VSearchStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <script src="https://kit.fontawesome.com/505dd48f15.js" crossorigin="anonymous"></script>
+    
+    <!--Links for Bootstrap 
+      
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>  -->
+    <script src="js/Image_Processing.js"></script>
+    <script src="js/XML_Database.js"></script>
+    <script src="js/ISearchEngine.js"></script>
+    <script src="js/ISearchEngine_Manager.js"></script>
+</head>
+<body>
+<header id="header1" >
+    <div class="container-fluid topnav py-3 navbar-dark navbar-expand-lg bg-dark">
+        <div class="row">
+        <button class=" footer-email-copy mytext-green" style="background-color: transparent; border: none; font-size: x-large; margin-left: 10px; " onclick="clearCanvas()"> Visual Search </h2>
+        <button style="background-color: transparent; border: none; font-size: large;" onclick="saveasimage()"> <i class="fa fa-search mytext-green"></i></button>
+        <div class="search-container">
+          <form name="pesquisa">
+            <select class="select" name="text" id="search" style="height: 25px; margin-left: 15px;">   
+                  <option value="none" hidden selected disabled > Categoria..</option>
+                  <option value="none"> Nenhuma</option>
+                  <option value="beach"> Beach</option>
+                  <option value="birthday"> Birthday</option>
+                  <option value="face">Face</option>
+                  <option value="indoor"> Indoor</option>
+                  <optgroup label="Man Made..">
+                    <option value="manmade/artificial">Artificial</option>
+                    <option value="manmade/manmade">Man Made</option>
+                    <option value="manmade/urban"> Urban</option>
+                  </optgroup>
+                  <option value="marriage"> Marriage</option>
+                  <option value="nature"> Nature</option>
+                  <option value="no_people"> No People</option>
+                  <option value="outdoor"> Outdoor</option>
+                  <option value="party"> Party</option>
+                  <option value="people"> People</option>
+                  <option value="snow"> Snow</option>     
+            </select>
+
+            <select class="select" name="color_pick" id="sel" style="height: 25px;" 
+            onclick="document.getElementById('sel').className = 'text-'+document.forms['pesquisa']['color_pick'].value;">
+                  <option value="none" hidden selected disabled> Cor..</option>
+                  <option value="none"><span style="color: #000;"> </span> Nenhuma</option>
+                  <option value="red" class="text-red"> &#11044; Vermelho</option>
+                  <option value="orange" style="color: rgb(251,148,11);">&#11044; Laranja</option>
+                  <option value="yellow" style="color: rgb(255,255,0); background-color: #000;">&#11044; Amarelo</option>
+                  <option value="green" style="color: rgb(0,255,0);">&#11044; Verde</option>
+                  <option value="Blue-green" style="color: rgb(0, 204, 198);">&#11044; Azul-ciano</option>
+                  <option value="blue" style="color: rgb(3,192,255);">&#11044; Azul</option>
+                  <option value="purple" style="color: rgb(118,0,167);">&#11044; Roxo</option>
+                  <option value="pink" style="color: rgb(255,44,191);">&#11044; Rosa</option>
+                  <option value="white" style="color: rgb(255,255,255); background-color: #000;">&#11044; Branco</option>
+                  <option value="grey" style="color: rgb(153,153,153);">&#11044; Cinzento</option>
+                  <option value="black" style="color: rgb(0,0,0);">&#11044; Preto</option>
+                  <option value="brown" style="color: rgb(136,84,24);">&#11044; Castanho</option>    
+            </select>
+
+            <button style="margin-left: 7px;" id="pesquisar-button" type="button" onclick=" app.search();">Pesquisar <i class="fa fa-search"></i></button>
+          </form>
+          
+        </div>
+        
+        </div>
+      </div>
+</header>
+
+<section id="query">
+
+</section>
+
+<section id="tools">
+
+</section>
+
+<section id="visualizacao" style="background-color: rgb(58, 57, 57);" >
+<div class="container-fluid" style="text-align: center;">
+    <div class="row">
+    <canvas id="canvas" style="text-align: center;">
+        Your browser doesn't recognize the canvas element
+    </canvas>
+</div>
+</div>
+</section>
+
+  <section id="About">
+    <footer  class="bg-dark">
+      <div class="container-fluid">
+          <!--section-title -->
+          <div class="row">
+              <div class="col text-left ">
+                  <div class="footer-heading">
+                    <h2 style="font-weight: bold;">About Me</h2>
+                    <a href="#About">Instagram <i class="fa-brands fa-instagram"></i></a>
+                    <a href="#About">Facebook <i class="fa-brands fa-facebook"></i></a>
+                    <a href="#About">Twitter <i class="fa-brands fa-twitter"></i></a>
+                  </div>
+              </div>
+              <div class="col footer-email-form text-center ">
+                <h2 class=" text-green mb-0 pb-1 text-center" style="font-weight: bold;">Contact Me</h2>
+                <input type="email" placeholder="Enter your email" id="footer-email">
+                <input type="submit" value="Sign Up" id="footer-email-btn">
+            </div>
+                <div class="col footer-email-copy text-right">
+                    
+                  <h2 class=" mb-0 pb-1 " style="font-weight: bold;">Copyright: Pedro Silva & Diogo Santos</h2>
+              </div>
+          </div>
+
+
+
+<script> 
+window.onload = main(); 
+//window.localStorage.clear(); 
+</script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

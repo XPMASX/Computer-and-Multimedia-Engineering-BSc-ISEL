@@ -1,0 +1,58 @@
+
+
+#your-cards img {
+    height: 150px;
+    width: 100px;
+    margin-right: 20px;
+    
+}
+
+#dealer-cards img {
+    height: 150px;
+    width: 100px;
+    margin-left: 20px;
+    
+}
+
+*{
+    margin: 0; padding: 0;
+}
+
+.background-image{
+    background-image: url('img/table.jpg'); height: 100vh; 
+      background-repeat: no-repeat;background-size: cover;
+      background-position: center center;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    
+    padding: 10px;
+    }
+
+.dbtn {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: red;
+    outline: none;
+    border: none;
+    color: aliceblue;
+    
+}
+    
+.dbtn:hover{
+    cursor: pointer;
+    background-color:#18be29;
+    transition: all 0.4s ease-out;
+}
+    
+.dbtn:disabled{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+
+.dbtn:active{
+    transform: translateY(8px);
+}

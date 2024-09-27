@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Family Photos</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styling.css">
+    <script src="js/FotoPrint_manager.js"></script>
+    <script src="js/FotoPrint.js"></script>
+    <script src="js/DrawingObjects.js"></script>
+
+</head>
+<body>
+
+<section>
+    <canvas id="img" style="left: 200pt; top: 5pt;" width="1000" height="150">
+        Your browser doesn't recognize the canvas element
+    </canvas>
+    
+</section>
+
+<section>
+    <canvas id="canvas" style="top: 150pt;" width="1000" height="500">
+        Your browser doesn't recognize the canvas element
+    </canvas>
+
+</section>
+
+<section>
+    <button onclick="saveasimage();"> Save Image </button>
+    <br>
+    <br>
+    <button onclick="remove();"> Delete </button>
+    <br>
+    <br>
+    <input id="color" type="color" name="favcolor" value="black" onchange="setColor()">
+    <br>
+    <button onclick="setBackColor()"> Change bg color </button>
+    <br>
+    <br>
+    <button onclick="getText()"> Input text </button>
+    <br>
+    <input type="file" id="imageUp" name="image" accept="image/png, image/jpeg" onchange="insertImage()">
+    <br>
+    <br>
+</section>
+
+<section>
+    <script> window.onload = main(); </script>
+</section>
+
+<footer></footer>
+</body>
+</html>

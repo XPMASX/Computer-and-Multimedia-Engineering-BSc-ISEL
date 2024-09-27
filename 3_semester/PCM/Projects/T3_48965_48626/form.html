@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head lang="pt">
+    <meta charset="UTF-8">
+    <title>Questionário</title>
+    <script src="js/config.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header>
+    <h1>Questionário</h1>
+    <h2>Google Images</h2>
+</header>
+
+<section id="dados_pessoais">
+    <form name="fdpessoais" method="POST" onsubmit="validateForm_1()" action="tarefas.html">
+        <fieldset>
+            <legend> Caracterização </legend>
+            <article id = "dp1">
+                <h3>1 - Qual é a sua idade? * </h3>
+                <input id = "name1" type="radio" name="idade" value="<18">
+                <label for = "name1"> 	&#60;18 </label>
+
+                <input id = "name2" type="radio" name="idade" value="18-25">
+                <label for = "name2" >18-25</label>
+
+                <input id = "name3" type="radio" name="idade" value="26-33">
+                <label for = "name3"> 26-33 </label>
+
+                <input id = "name4" type="radio" name="idade" value="34-40" required>
+                <label for = "name4"> 34-40 </label>
+
+                <input id = "name5" type="radio" name="idade" value=">40" required>
+                <label for = "name5"> &#62;40 </label>
+
+            </article>
+
+            <article id = "dp2">
+                <h3>2 - Género: *</h3>
+                <input id = "masc" type="radio" name="sexo" value="masculino">
+                <label for = "masc"> Masculino </label>
+
+                <input id = "fem" type="radio" name="sexo" value="feminino" required>
+                <label for = "fem"> Feminino </label>
+            </article>
+
+            <article id = "dp3">
+                <h3>3 - Com que frequência usa a internet</h3>
+                    <input id = "freq1" type="radio" class="checkoption" onclick="checkedOnClick(this);" name="freq" value="Diariamente">
+                    <label for="freq1"> Diariamente </label>
+                    <br>
+                  
+                    <input id = "freq2" type="radio" class="checkoption" onclick="checkedOnClick(this);" name="freq" value="Algumas vezes por semana">
+                    <label for="freq2"> Algumas vezes por semana </label>
+                    <br>
+                  
+                    <input id = "freq3" type="radio" class="checkoption" onclick="checkedOnClick(this);" name="freq" value="Algumas vezes por mês">
+                    <label for="freq3">Algumas vezes por mês</label>
+                    <br>
+                
+                    <input id = "freq4" type="radio" class="checkoption" onclick="checkedOnClick(this);" name="freq" value="Raramente">
+                    <label for="freq4">Raramente</label>
+                    <br>
+                    <input id = "freq5" type="radio" class="checkoption" onclick="checkedOnClick(this);" name="freq" value="Nunca">
+                    <label for="freq5">Nunca</label>
+                    <br>
+            </article>
+
+            <article>
+                <h3>4– Indique, por ordem de preferência, os Web Browsers que mais	utiliza. Pode indicar 3. <br>	
+                Utilize	valores	de 1 a 3, sendo	1 o	mais preferido e 3 o menos. **</h3>
+                <tr>
+                <td>Chrome</td>
+                    <td> <input onclick="FirstOption()" id="f0" type="radio" name="First" value="Chrome" required></td>
+                    <td> <input onclick="SecondOption()" id="s0" type="radio" name="Second" value="Chrome"> </td>
+                    <td> <input onclick="ThirdOption()" id="t0" type="radio" name="Third" value="Chrome"></td>
+                </tr>
+                <br>
+                <tr>
+                <td>Firefox</td>
+                    <td> <input onclick="FirstOption()" id="f1" type="radio" name="First" value="Firefox"></td>
+                    <td> <input onclick="SecondOption()" id="s1" type="radio" name="Second" value="Firefox"></td>
+                    <td> <input onclick="ThirdOption()" id="t1" type="radio" name="Third" value="Firefox"></td>
+                </tr>
+                <br>
+                <td>Edge</td>
+                    <td> <input onclick="FirstOption()" id="f2" type="radio" name="First" value="Edge"></td>
+                    <td> <input onclick="SecondOption()" id="s2" type="radio" name="Second" value="Edge"> </td>
+                    <td> <input onclick="ThirdOption()" id="t2" type="radio" name="Third" value="Edge"></td>
+                </tr>
+                <br>
+                <tr>
+                <td>Opera</td>
+                    <td> <input onclick="FirstOption()" id="f3" type="radio" name="First" value="Opera"></td>
+                    <td> <input onclick="SecondOption()" id="s3" type="radio" name="Second" value="Opera"></td>
+                    <td> <input onclick="ThirdOption()" id="t3" type="radio" name="Third" value="Opera"></td>
+                </tr>
+                <br>
+                <td>Safari</td>
+                    <td> <input onclick="FirstOption()" id="f4" type="radio" name="First" value="Safari"></td>
+                    <td> <input onclick="SecondOption()" id="s4" type="radio" name="Second" value="Safari"> </td>
+                    <td> <input onclick="ThirdOption()" id="t4" type="radio" name="Third" value="Safari"></td>
+
+                </tr>
+                <br>
+            </article>
+
+            <article>
+                <h3>5 - Conhece	outros sites de pesquisa de imagem?:</h3>
+                <input id = "nao" type="radio" name="pimg" value="Não" onclick="Write_Text()">
+                <label for = "nao"> Não </label>
+
+                <input id = "sim" type="radio" name="pimg" value="Sim" onclick="Write_Text()" >
+                <label for = "sim"> Sim </label>
+
+                <label for="s_n_r"> Quais: </label>
+                <input id="s_n_r"  type="text" name="outros_pimg" disabled  >
+
+            </article>
+
+            <br>
+            <div id="next">
+                <input class="dbtn" id="sub" type="submit" name="submit" value="Next">
+            </div>
+        </fieldset>
+    </form>
+</section>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

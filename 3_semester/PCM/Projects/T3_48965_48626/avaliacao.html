@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head lang="pt">
+    <meta charset="UTF-8">
+    <title>Questionário</title>
+    <script src="js/config.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header>
+    <h1>Questionário</h1>
+    <h2>Google Images</h2>
+</header>
+
+<section id="dados_pessoais">
+    <form name="favaliacao" method="POST" onsubmit="validateForm_3()" action="fim.html">
+        <fieldset>
+            <legend> Avaliação Global </legend>
+            <article id = "a1">
+                <h3>1- Para cada par de adjetivos, selecione a opção que melhor descreve
+                    a sua experiência de utilização deste site. </h3>
+                    <label for = "i1">Fantástica </label>
+                    <input id="i1" type="range" name="horrivel" min="1" max="5" value="0">
+                    <label for = "i1">Horrível </label>
+                    <br>
+                    <label for = "i1">Estimulante </label>
+                    <input id="i1" type="range" name="aborrecida" min="1" max="5" value="0" >
+                    <label for = "i1">Aborrecida </label>
+                    <br>
+                    <label for = "i1">Gratificante </label>
+                    <input id="i1" type="range" name="frustrante" min="1" max="5" value="0">
+                    <label for = "i1">Frustrante </label>
+                    <br>
+                    <label for = "i1">Fácil </label>
+                    <input id="i1" type="range" name="dificil" min="1" max="5" value="0">
+                    <label for = "i1">Difícil </label>
+                <br>
+
+            </article>
+
+            <article id = "dp2">
+                <h3>2- Como classifica o resultado obtido pela pesquisa por Categoria (
+                    1 significa "Mau" e 5 significa "Excelente")? *</h3>
+                    <label for = "i2">Mau </label>
+                    <input id="i2" type="range" name="mau2" min="1" max="5" value="0"  required>
+                    <label for = "i2">Excelente </label>
+            </article>
+
+            <article id = "dp3">
+                <h3>3- Como classifica o resultado obtido pela pesquisa por Cor (
+                    1 significa "Mau" e 5 significa "Excelente")? *</h3>
+                <label for = "i2">Mau </label>
+                <input id="i2" type="range" name="mau3" min="1" max="5" value="0" required>
+                <label for = "i2">Excelente </label>
+                <br>
+            </article>
+
+            <article>
+                <h3>4- Como classifica o resultado obtido pela pesquisa por Imagens Semelhantes (
+                    1 significa "Mau" e 5 significa "Excelente")? *</h3>
+                <label for = "i2">Mau </label>
+                <input id="i2" type="range" name="mau4" min="1" max="5" value="0" required>
+                <label for = "i2">Excelente </label>
+                <br>
+            </article>
+
+            <article>
+                <h3>5- Como classifica a utilidade da pesquisa por Imagens Semelhantes (
+                    1 significa "Mau" e 5 significa "Excelente")? *</h3>
+                <label for = "i2">Mau </label>
+                <input id="i2" type="range" name="mau5" min="1" max="5" value="0" required>
+                <label for = "i2">Excelente </label>
+                <br>
+            </article>
+
+            <article>
+                <h3>6- Como classifica o sistema de navegação do site (
+                    1 significa "Mau" e 5 significa "Excelente")? *</h3>
+                <label for = "i2">Mau </label>
+                <input id="i2" type="range" name="mau6" min="1" max="5" value="0" required>
+                <label for = "i2">Excelente </label>
+                <br>
+            </article>
+
+            <article>
+                <h3>7- Como classifica o design do site (
+                    1 significa "Mau" e 5 significa "Excelente")? *</h3>
+                <label for = "i2">Mau </label>
+                <input id="i2" type="range" name="mau7" min="1" max="5" value="0" required>
+                <label for = "i2">Excelente </label>
+                <br>
+            </article>
+
+            <br>
+            <div id="next">
+                <input class="dbtn" id="sub" type="submit" name="submit" value="Next">
+            </div>
+        </fieldset>
+    </form>
+</section>
+
+	
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

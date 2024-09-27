@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="blackjack.css">
+    <script src="js/blackjack_object.js"></script>
+    <script src="js/blackjack_manager.js"></script>
+    <title>BlackJack</title>
+  </head>
+
+  <body>
+    
+      <div class="container-fluid background-image">
+        <table class="center" align=center cellpadding=0 cellspacing=10 border=0; style="padding-top: 5px;">
+          <tr><td align=center>
+            <span id="message2" style="color:rgb(0, 0, 0); font-weight:bold;font-size:xx-large"><span style="color:rgb(255, 0, 0);">♥</span>♠Bem Vindo ao <span style="color:rgb(255, 0, 0);">Blackjack</span>♣<span style="color:rgb(255, 0, 0);">♦</span><br></span>
+            </td></tr>
+          <tr><td>
+            
+          <div style="position: relative;  width: 700px; height:520px">
+              <div style="position: absolute; left:20px; text-align: center; color:rgb(196, 13, 0); font-size:xx-large; font-weight: bold;">Dealer's cards:</div>
+              <img id="hidden" src="img/BACK.png" style="position: absolute; left: 50px; top:50px; height: 150px; width: 100px; margin-right: 20px;">
+              <div id="dealer-cards" style="position: absolute; left: 150px; top:50px; "></div>
+              
+              <div  style="position: absolute; left:20px; top:260px; color:rgb(0, 0, 0); font-size:xx-large; font-weight: bold;">Your cards:</div>
+              <div id="your-cards" style="position: absolute; left: 70px; top:310px;"  ></div>
+              
+          </div>
+          </td></tr>
+          <tr><td align=center>
+            <span id="message" style="color:rgb(0, 0, 0); font-weight:bold;font-size:x-large">Welcome to Blackjack!<br>Click "New Game" to Begin.</span>
+            </td></tr>
+          <tr><td align=center>
+          <input class="dbtn" type=button id="card" value="Hit" onclick="player_new_card()" >
+          <input class="dbtn" type=button id="stand" value="Stand" onclick="dealer_finish()" >
+          <input class="dbtn" type=button id="new_game" value="Novo Jogo" onClick="new_game()" disabled>
+          </td></tr>
+          
+          </table>
+  </div>
+
+      
+      
+
+    <section id="sec_debug">
+      <p id="debug"></p>
+    </section>
+
+    <section>
+      <script> window.onload = new_game();</script>
+    </section>
+    <footer></footer>
+  </body>
+
+</html> 

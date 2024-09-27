@@ -1,0 +1,38 @@
+
+
+textarea {
+    resize: none;
+    object-fit: fill;
+    width: auto;
+  }
+
+.dbtn {
+    width: 100px;
+    height: 40px;
+
+    float: right;
+    
+    border-radius: 4px;
+    background-color: red;
+    outline: none;
+    border: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: large;
+    
+}
+    
+.dbtn:hover{
+    cursor: pointer;
+    background-color:#18be29;
+    transition: all 0.4s ease-out;
+}
+    
+.dbtn:disabled{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+
+.dbtn:active{
+    transform: translateY(8px);
+}

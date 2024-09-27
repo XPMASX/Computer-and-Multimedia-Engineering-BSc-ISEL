@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head lang="pt">
+    <meta charset="UTF-8">
+    <title>Questionário</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/config.js"></script>
+</head>
+<body>
+<header>
+    <h1>Questionário</h1>
+    <h2>Google Images</h2>
+</header>
+
+<section id="tarefas">
+    <form name="ftarefas" method="POST" onsubmit="validateForm_2()" action="avaliacao.html">
+        <fieldset>
+            <legend> Tarefas </legend>
+            <p style="font-size: large;">Por favor, realiza as seguintes tarefas e descreva-nos os resultados obtidos.</p>
+            <article id = "ft1">
+                <h2>Tarefa 1 - Explorar</h2>
+                <p style="font-size: large;">Explore o site livremente e indique	se encontrou algum erro	ou se sentiu alguma	dificuldade
+                    em perceber a funcionalidade das opções.</p>
+                <div class="form-group">
+                    <label for="ft-text-area2"></label>
+                    <textarea class="form-control" id="ft-text-area-1" name="t1"  rows="3" cols="50"></textarea>
+                </div>
+            </article>
+            <b></b>
+            <article id = "ft2">
+                <h2>Tarefa 2 – Pesquisa	Categorias</h2>
+                <p style="font-size: large;">Escolha a opção de pesquisa por palavra chave, selecione uma categoria à sua escolha
+                e observe os resultados.</p>
+                <p style="font-size: large;"> Que dificuldades encontrou?</p>
+                <div class="form-group">
+                    <label for="ft-text-area-2"></label>
+                    <textarea class="form-control" id="ft-text-area-2" name="t2" rows="3" cols="50"></textarea>
+                </div>
+            </article>
+            <b></b>
+            <article id = "ft3">
+                <h2>Tarefa 3– Pesquisa Cor</h2>
+                <p style="font-size: large;">Escolha a opção de pesquisa por cor dominate, selecione uma cor à sua escolha e 
+                observe os resultados.</p>
+                <p style="font-size: large;"> Que dificuldades encontrou?</p>
+                <div class="form-group">
+                    <label for="ft-text-area-3"></label>
+                    <textarea class="form-control" id="ft-text-area-3" name="t3" rows="3" cols="50"></textarea>
+                </div>
+            </article>
+            <b></b>
+            <article id = "ft4">
+                <h2>Tarefa 4– Pesquisa Imagens Semelhantes</h2>
+                <p style="font-size: large;">Escolha a opção de pesquisa por imagens semelhantes, selecione uma
+                imagem à sua ecolha e observe os resultados.</p>
+                <p style="font-size: large;"> Que dificuldades encontrou?</p>
+                <div class="form-group">
+                    <label for="ft-text-area-4"></label>
+                    <textarea class="form-control" id="ft-text-area-4" name="t4" rows="3" cols="50"></textarea>
+                </div>
+            </article>
+            <b></b>
+            <article id = "ft5">
+                <p style="font-size: large; "> Qual o tipo de pesquisa que acha mais adequado?</p>
+                <div class="form-group">
+                    <label for="ft-text-area-5"></label>
+                    <textarea class="form-control" id="ft-text-area-5" name="t5" rows="3" cols="50"></textarea>
+                </div>
+            </article>
+
+            <br>
+
+            <div id="next">
+                <input class="dbtn" id="sub" type="submit" name="submit" value="Next">
+            </div>
+        </fieldset>
+    </form>
+</section>
+
+
+
+
+
+</body>
+</html>
