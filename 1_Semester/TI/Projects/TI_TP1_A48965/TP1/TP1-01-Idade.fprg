@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Padrola"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-26 05:18:05 "/>
+        <attribute name="created" value="UGFkcm9sYTtMQVBUT1AtSlRRSTYyVjg7MjAyMS0xMC0xOTsiMTE6MjE6NTUgIjsyOTYw"/>
+        <attribute name="edited" value="UGFkcm9sYTtMQVBUT1AtSlRRSTYyVjg7MjAyMS0xMC0yNjsiMDU6MTg6MDUgIjs1OzMwNzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ano, idade, nasc" type="Integer" array="False" size=""/>
+            <output expression="&quot;.... C&#225;lculo da idade ....&quot;" newline="True"/>
+            <output expression="&quot;Qual &#233; o seu ano de nascimento?&quot;" newline="True"/>
+            <input variable="nasc"/>
+            <while expression="nasc&lt;0">
+                <output expression="&quot;Introduza um ano depois de cristo, ou seja, maior que 0&quot;" newline="True"/>
+                <input variable="nasc"/>
+            </while>
+            <output expression="&quot;Introduza o ano em qual quer saber a sua idade&quot;" newline="True"/>
+            <input variable="ano"/>
+            <while expression="ano&lt;nasc || nasc&lt;0">
+                <output expression="&quot;Introduza um ano igual ou depois do seu nascimento&quot;" newline="True"/>
+                <input variable="ano"/>
+            </while>
+            <assign variable="idade" expression="ano-nasc"/>
+            <if expression="idade=0">
+                <then>
+                    <output expression="&quot;Nasceu no ano &quot; &amp;nasc&amp; &quot; e tem menos de um ano de idade&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="idade&gt;=10">
+                        <then>
+                            <output expression="&quot;Nasceu em &quot; &amp;nasc &amp; &quot; e no ano &quot; &amp;ano&amp; &quot; ter&#225; &quot; &amp;idade&amp; &quot; anos.&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Nasceu em &quot; &amp;nasc &amp; &quot; e no ano &quot; &amp;ano&amp; &quot; ter&#225; &quot; &amp;idade&amp; &quot; ano.&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

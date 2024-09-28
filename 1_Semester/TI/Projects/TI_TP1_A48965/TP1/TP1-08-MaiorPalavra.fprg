@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Pedro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-04 11:19:11 "/>
+        <attribute name="created" value="UGVkcm87REVTS1RPUC1QRURST0xBOzIwMjEtMTEtMDQ7IjA4OjUxOjA4ICI7Mjc5Ng=="/>
+        <attribute name="edited" value="UGVkcm87REVTS1RPUC1QRURST0xBOzIwMjEtMTEtMDQ7IjExOjE5OjExICI7MjsyODk3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="palavra, palavra2" type="String" array="False" size=""/>
+            <output expression="&quot;Programa: Maior Palavra&quot;" newline="True"/>
+            <output expression="&quot;Introduza uma palavra&quot;" newline="True"/>
+            <input variable="palavra"/>
+            <assign variable="palavra2" expression="&quot;notfim&quot;"/>
+            <while expression="palavra2!=&quot;fim&quot;">
+                <output expression="&quot;Introduza outra palavra ou se quiser terminar introduza 'fim'&quot;" newline="True"/>
+                <input variable="palavra2"/>
+                <if expression="palavra2!=&quot;fim&quot;">
+                    <then>
+                        <if expression="len(palavra2)&gt;len(palavra)">
+                            <then>
+                                <assign variable="palavra" expression="palavra2"/>
+                            </then>
+                            <else>
+                                <assign variable="palavra" expression="palavra"/>
+                            </else>
+                        </if>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+            <output expression="&quot;A palavra com maior n&#250;mero de caracteres foi &quot; &amp;palavra&amp; &quot; e tem &quot; &amp;len(palavra)&amp; &quot; caracteres&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Pedro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-14 10:20:19 "/>
+        <attribute name="created" value="UGVkcm87REVTS1RPUC1QRURST0xBOzIwMjEtMTEtMDg7IjExOjQzOjEzICI7Mjc5MQ=="/>
+        <attribute name="edited" value="UGVkcm87REVTS1RPUC1QRURST0xBOzIwMjEtMTEtMDg7IjExOjQzOjE2ICI7MTtQZWRybztERVNLVE9QLVBFRFJPTEE7MjAyMS0xMS0wODsiMTI6NDc6MzYgIjtzaGl0LmZwcmc7NjczOA=="/>
+        <attribute name="edited" value="UGVkcm87REVTS1RPUC1QRURST0xBOzIwMjEtMTEtMTQ7IjEwOjIwOjE5ICI7MzsyODk4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numcomp, max, min" type="Integer" array="False" size=""/>
+            <assign variable="max" expression="100"/>
+            <assign variable="min" expression="1"/>
+            <declare name="res" type="String" array="False" size=""/>
+            <assign variable="res" expression="&quot;&quot;"/>
+            <output expression="&quot;Programa Advinhador&quot;" newline="True"/>
+            <output expression="&quot;Pense num n&#250;mero entre 1 e 100&quot;" newline="True"/>
+            <assign variable="numcomp" expression="50"/>
+            <while expression="res!=&quot;i&quot;">
+                <output expression="&quot;O n&#250;mero &#233; maior que &quot; &amp;numcomp&amp; &quot; ? Escreva 's' se sim 'n' se n&#227;o 'i' se for igual&quot;" newline="True"/>
+                <input variable="res"/>
+                <while expression="res!=&quot;s&quot; &amp;&amp; res!=&quot;n&quot; &amp;&amp; res!=&quot;i&quot;">
+                    <output expression="&quot;O n&#250;mero &#233; maior que &quot; &amp;numcomp&amp; &quot; ? Escreva 's' se sim 'n' se n&#227;o 'i' se for igual&quot;" newline="True"/>
+                    <input variable="res"/>
+                </while>
+                <if expression="res==&quot;i&quot;">
+                    <then/>
+                    <else>
+                        <if expression="res==&quot;s&quot;">
+                            <then>
+                                <assign variable="min" expression="numcomp"/>
+                            </then>
+                            <else>
+                                <assign variable="max" expression="numcomp"/>
+                            </else>
+                        </if>
+                        <if expression="res==&quot;s&quot;">
+                            <then>
+                                <assign variable="numcomp" expression="(numcomp+max)/2"/>
+                            </then>
+                            <else>
+                                <assign variable="numcomp" expression="(numcomp+min)/2"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </while>
+            <output expression="&quot;O n&#250;mero pensado &#233; o &quot; &amp;numcomp" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

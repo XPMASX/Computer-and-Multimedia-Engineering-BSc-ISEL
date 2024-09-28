@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Padrola"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-09 10:05:37 "/>
+        <attribute name="created" value="UGFkcm9sYTtMQVBUT1AtSlRRSTYyVjg7MjAyMS0xMS0wOTsiMTI6MDA6NTIgIjsyOTU1"/>
+        <attribute name="edited" value="UGFkcm9sYTtMQVBUT1AtSlRRSTYyVjg7MjAyMS0xMS0wOTsiMDE6MTc6MjkgIjsxOzMwNzM="/>
+        <attribute name="edited" value="UGVkcm87REVTS1RPUC1QRURST0xBOzIwMjEtMTEtMDk7IjEwOjA1OjM3ICI7MjsyOTA0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3, m2, m3, men2, men3, meio" type="Integer" array="False" size=""/>
+            <output expression="&quot;Programa compara&#231;&#245;es&quot;" newline="True"/>
+            <output expression="&quot;Introduza o primeiro de tr&#234;s n&#250;meros que v&#227;o ser comparados&quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Introduza o segundo n&#250;mero&quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;Introduza o terceiro n&#250;mero&quot;" newline="True"/>
+            <input variable="n3"/>
+            <assign variable="m2" expression="maior2(n1,n2)"/>
+            <assign variable="men2" expression="menor2(n1,n2)"/>
+            <assign variable="m3" expression="maior3(m2,n1,n2,n3)"/>
+            <assign variable="men3" expression="menor3(men2,n1,n2,n3)"/>
+            <assign variable="meio" expression="meio3(n1, n2, n3, m3, men3)"/>
+            <output expression="&quot;O maior valor foi &quot; &amp;m3&amp; &quot; o menor valor foi &quot; &amp;men3&amp; &quot; O valor do meio foi &quot; &amp;meio" newline="True"/>
+        </body>
+    </function>
+    <function name="maior2" type="Integer" variable="m2">
+        <parameters>
+            <parameter name="n1" type="Integer" array="False"/>
+            <parameter name="n2" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="m2" type="Integer" array="False" size=""/>
+            <if expression="n1&gt;n2">
+                <then>
+                    <assign variable="m2" expression="n1-0"/>
+                </then>
+                <else>
+                    <assign variable="m2" expression="n2-0"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="maior3" type="Integer" variable="m3">
+        <parameters>
+            <parameter name="m2" type="Integer" array="False"/>
+            <parameter name="n1" type="Integer" array="False"/>
+            <parameter name="n2" type="Integer" array="False"/>
+            <parameter name="n3" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="m3" type="Integer" array="False" size=""/>
+            <call expression="maior2(m2,n3)"/>
+            <if expression="m2&gt;n3">
+                <then>
+                    <assign variable="m3" expression="m2-0"/>
+                </then>
+                <else>
+                    <assign variable="m3" expression="n3-0"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="meio3" type="Integer" variable="meio">
+        <parameters>
+            <parameter name="n1" type="Integer" array="False"/>
+            <parameter name="n2" type="Integer" array="False"/>
+            <parameter name="n3" type="Integer" array="False"/>
+            <parameter name="men3" type="Integer" array="False"/>
+            <parameter name="m3" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="meio" type="Integer" array="False" size=""/>
+            <assign variable="meio" expression="n1+n2+n3-(men3+m3)"/>
+        </body>
+    </function>
+    <function name="menor2" type="Integer" variable="men2">
+        <parameters>
+            <parameter name="n1" type="Integer" array="False"/>
+            <parameter name="n2" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="men2" type="Integer" array="False" size=""/>
+            <if expression="n1&lt;n2">
+                <then>
+                    <assign variable="men2" expression="n1-0"/>
+                </then>
+                <else>
+                    <assign variable="men2" expression="n2-0"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="menor3" type="Integer" variable="men3">
+        <parameters>
+            <parameter name="men2" type="Integer" array="False"/>
+            <parameter name="n1" type="Integer" array="False"/>
+            <parameter name="n2" type="Integer" array="False"/>
+            <parameter name="n3" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="men3" type="Integer" array="False" size=""/>
+            <call expression="menor2(men2,n3)"/>
+            <if expression="men2&lt;=n3">
+                <then>
+                    <assign variable="men3" expression="men2-0"/>
+                </then>
+                <else>
+                    <assign variable="men3" expression="n3-0"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

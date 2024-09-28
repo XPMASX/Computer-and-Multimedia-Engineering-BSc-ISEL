@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Padrola"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-26 05:32:46 "/>
+        <attribute name="created" value="UGFkcm9sYTtMQVBUT1AtSlRRSTYyVjg7MjAyMS0xMC0yNjsiMDU6MTg6MTkgIjsyOTY3"/>
+        <attribute name="edited" value="UGFkcm9sYTtMQVBUT1AtSlRRSTYyVjg7MjAyMS0xMC0yNjsiMDU6MzI6NDYgIjsyOzMwNzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <output expression="&quot;.... Par ou &#205;mpar ....&quot;" newline="True"/>
+            <output expression="&quot;Introduza um n&#250;mero inteiro positivo e ser&#225; indicado se este &#233; par ou &#237;mpar&quot;" newline="True"/>
+            <input variable="num"/>
+            <if expression="num&lt;0">
+                <then>
+                    <output expression="&quot;O n&#250;mero tem que ser Inteiro e positivo&quot;" newline="True"/>
+                    <input variable="num"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="num % 2 ==0">
+                <then>
+                    <output expression="&quot;O n&#250;mero &quot; &amp;num&amp; &quot; &#233; par &quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="num % 7 == 0">
+                        <then>
+                            <output expression="&quot;O n&#250;mero &quot; &amp;num&amp; &quot; &#233; &#237;mpar e m&#250;ltiplo de 7&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;O n&#250;mero &quot; &amp;num&amp; &quot; &#233; &#237;mpar e n&#227;o &#233; m&#250;ltiplo de 7&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

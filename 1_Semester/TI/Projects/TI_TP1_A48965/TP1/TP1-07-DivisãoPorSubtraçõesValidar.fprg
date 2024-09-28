@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Pedro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-04 11:18:24 "/>
+        <attribute name="created" value="UGVkcm87REVTS1RPUC1QRURST0xBOzIwMjEtMTEtMDI7IjEwOjI4OjA0ICI7Mjc4Nw=="/>
+        <attribute name="edited" value="UGVkcm87REVTS1RPUC1QRURST0xBOzIwMjEtMTEtMDQ7IjExOjE4OjI0ICI7OTsyOTA3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dividendo, divisor, quociente, resto, aux" type="Integer" array="False" size=""/>
+            <assign variable="quociente" expression="1"/>
+            <output expression="&quot;Divis&#227;o por Subtra&#231;&#245;es&quot;" newline="True"/>
+            <assign variable="aux" expression="0"/>
+            <do expression="dividendo&lt;0 || int(dividendo)!=dividendo">
+                <if expression="aux&gt;0">
+                    <then>
+                        <output expression="&quot;Dividendo inv&#225;lido, introduza um valor inteiro e positivo&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;Introduza o dividendo&quot;" newline="True"/>
+                    </else>
+                </if>
+                <input variable="dividendo"/>
+                <assign variable="aux" expression="1"/>
+            </do>
+            <assign variable="aux" expression="0"/>
+            <do expression="divisor&lt;0  || divisor!= int(divisor) || divisor&gt;dividendo">
+                <if expression="aux&gt;0">
+                    <then>
+                        <output expression="&quot;Divisor inv&#225;lido, introduza um valor inteiro e positivo&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;Introduza o divisor&quot;" newline="True"/>
+                    </else>
+                </if>
+                <input variable="divisor"/>
+                <assign variable="aux" expression="1"/>
+            </do>
+            <assign variable="resto" expression="dividendo-divisor"/>
+            <while expression="resto&gt;=divisor">
+                <assign variable="resto" expression="resto-divisor"/>
+                <assign variable="quociente" expression="quociente+1"/>
+            </while>
+            <output expression="&quot;O quociente &#233; &quot; &amp;quociente&amp; &quot; e o resto &#233; &quot; &amp;resto" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

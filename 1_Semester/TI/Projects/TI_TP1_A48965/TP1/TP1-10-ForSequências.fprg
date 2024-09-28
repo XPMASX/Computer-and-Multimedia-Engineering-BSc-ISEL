@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Padrola"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-05 02:37:45 "/>
+        <attribute name="created" value="UGFkcm9sYTtMQVBUT1AtSlRRSTYyVjg7MjAyMS0xMC0yNjsiMTI6MDk6MDYgIjsyOTYx"/>
+        <attribute name="edited" value="UGFkcm9sYTtMQVBUT1AtSlRRSTYyVjg7MjAyMS0xMC0yNjsiMTI6MjY6MjkgIjsyOzMwNzQ="/>
+        <attribute name="edited" value="UGVkcm87REVTS1RPUC1QRURST0xBOzIwMjEtMTEtMDU7IjAyOjM3OjQ1ICI7MTsyOTA0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Programa de Sequ&#234;ncias&quot;" newline="True"/>
+            <declare name="init" type="Integer" array="False" size=""/>
+            <for variable="init" start="300" end="800" direction="inc" step="100">
+                <output expression="init&amp;&quot; &quot;" newline="False"/>
+            </for>
+            <output expression="&quot;&quot;" newline="True"/>
+            <for variable="init" start="0" end="500" direction="inc" step="100">
+                <output expression="init + 300 &amp; &quot; &quot;" newline="False"/>
+            </for>
+            <output expression="&quot;&quot;" newline="True"/>
+            <for variable="init" start="-110" end="-140" direction="dec" step="10">
+                <output expression="init &amp;&quot; &quot;" newline="False"/>
+            </for>
+            <output expression="&quot;&quot;" newline="True"/>
+            <for variable="init" start="0" end="-5" direction="dec" step="1">
+                <output expression="init * 50 + 350 &amp; &quot; &quot;" newline="False"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

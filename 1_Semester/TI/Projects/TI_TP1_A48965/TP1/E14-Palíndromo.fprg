@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Pedro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-08 10:46:09 "/>
+        <attribute name="created" value="UGVkcm87REVTS1RPUC1QRURST0xBOzIwMjEtMTEtMDg7IjA1OjQ5OjQ0ICI7MjgwNA=="/>
+        <attribute name="edited" value="UGVkcm87REVTS1RPUC1QRURST0xBOzIwMjEtMTEtMDg7IjEwOjQ2OjA5ICI7OTsyOTE0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="palavra, invert" type="String" array="False" size=""/>
+            <declare name="result" type="Boolean" array="False" size=""/>
+            <output expression="&quot;Programa Pal&#237;ndromo&quot;" newline="True"/>
+            <output expression="&quot;Introduza uma palavra e ser&#225; verificado se esta &#233; um pal&#237;ndromo ou n&#227;o&quot;" newline="True"/>
+            <input variable="palavra"/>
+            <assign variable="invert" expression="inverteString(palavra)"/>
+            <assign variable="result" expression="&#233;Palindromo(palavra,invert)"/>
+            <if expression="result==True">
+                <then>
+                    <output expression="&quot;A palavra &quot; &amp;palavra&amp; &quot; &#233; um pal&#237;ndromo&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;A palavra &quot; &amp;palavra&amp; &quot; n&#227;o &#233; um pal&#237;ndromo&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="&#233;Palindromo" type="Boolean" variable="result">
+        <parameters>
+            <parameter name="invert" type="String" array="False"/>
+            <parameter name="palavra" type="String" array="False"/>
+        </parameters>
+        <body>
+            <call expression="inverteString(palavra)"/>
+            <declare name="result" type="Boolean" array="False" size=""/>
+            <if expression="palavra==invert">
+                <then>
+                    <assign variable="result" expression="True"/>
+                </then>
+                <else>
+                    <assign variable="result" expression="False"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="inverteString" type="String" variable="invert">
+        <parameters>
+            <parameter name="palavra" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="i, n" type="Integer" array="False" size=""/>
+            <declare name="invert" type="String" array="False" size=""/>
+            <assign variable="n" expression="len(palavra)-1"/>
+            <assign variable="invert" expression="char(palavra,n)"/>
+            <for variable="i" start="0" end="len(palavra)-2" direction="inc" step="1">
+                <assign variable="n" expression="n-1"/>
+                <assign variable="invert" expression="invert &amp; char(palavra,n)"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

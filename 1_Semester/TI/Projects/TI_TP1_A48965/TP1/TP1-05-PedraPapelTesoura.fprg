@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Padrola"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-14 08:33:46 "/>
+        <attribute name="created" value="UGFkcm9sYTtMQVBUT1AtSlRRSTYyVjg7MjAyMS0xMS0wMTsiMDM6NTU6NDEgIjsyOTU1"/>
+        <attribute name="edited" value="UGFkcm9sYTtMQVBUT1AtSlRRSTYyVjg7MjAyMS0xMS0wMTsiMDk6Mzg6MTMgIjsxOzMwNjk="/>
+        <attribute name="edited" value="UGVkcm87REVTS1RPUC1QRURST0xBOzIwMjEtMTEtMTQ7IjA4OjMzOjQ2ICI7MjsyOTA4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="win, rand" type="Integer" array="False" size=""/>
+            <output expression="&quot;Jogo pedra, papel ou tesoura&quot;" newline="True"/>
+            <assign variable="win" expression="0"/>
+            <declare name="user, pc" type="String" array="False" size=""/>
+            <do expression="win==0">
+                <output expression="&quot;Introduza 'pedra' , 'papel' ou 'tesoura'&quot;" newline="True"/>
+                <input variable="user"/>
+                <while expression="(user != &quot;papel&quot;) &amp;&amp; (user != &quot;pedra&quot;) &amp;&amp; (user != &quot;tesoura&quot;)">
+                    <output expression="&quot;Input inv&#225;lido introduza 'pedra', 'papel' ou 'tesoura'&quot;" newline="True"/>
+                    <input variable="user"/>
+                </while>
+                <assign variable="rand" expression="random(4)"/>
+                <while expression="rand==0">
+                    <assign variable="rand" expression="random(4)"/>
+                </while>
+                <if expression="rand==1">
+                    <then>
+                        <assign variable="pc" expression="&quot;pedra&quot;"/>
+                        <output expression="&quot;Pedra&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <if expression="rand==2">
+                            <then>
+                                <assign variable="pc" expression="&quot;papel&quot;"/>
+                                <output expression="&quot;Papel&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <assign variable="pc" expression="&quot;tesoura&quot;"/>
+                                <output expression="&quot;Tesoura&quot;" newline="True"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+                <if expression="(user==&quot;pedra&quot; &amp;&amp; pc==&quot;tesoura&quot;) || (user==&quot;papel&quot; &amp;&amp; pc==&quot;pedra&quot;) || (user==&quot;tesoura&quot; &amp;&amp; pc==&quot;papel&quot;)">
+                    <then>
+                        <output expression="&quot;O utilizador venceu&quot;" newline="True"/>
+                        <assign variable="win" expression="1"/>
+                    </then>
+                    <else>
+                        <if expression="(pc==&quot;pedra&quot; &amp;&amp; user==&quot;tesoura&quot;) || (pc==&quot;papel&quot; &amp;&amp; user==&quot;pedra&quot;) || (pc==&quot;tesoura&quot; &amp;&amp; user==&quot;papel&quot;)">
+                            <then>
+                                <output expression="&quot;O computador venceu&quot;" newline="True"/>
+                                <assign variable="win" expression="1"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;Empate escolha outra vez&quot;" newline="True"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

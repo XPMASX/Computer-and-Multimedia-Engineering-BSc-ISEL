@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Pedro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-14 10:09:44 "/>
+        <attribute name="created" value="UGVkcm87REVTS1RPUC1QRURST0xBOzIwMjEtMTEtMDY7IjAxOjA4OjI4ICI7Mjc5NQ=="/>
+        <attribute name="edited" value="UGVkcm87REVTS1RPUC1QRURST0xBOzIwMjEtMTEtMTQ7IjEwOjA5OjQ0ICI7MjsyOTAy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="code, i" type="Integer" array="False" size=""/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <output expression="&quot;Programa minusculas em maiusculas&quot;" newline="True"/>
+            <output expression="&quot;Insira o nome&quot;" newline="True"/>
+            <input variable="nome"/>
+            <declare name="maisc" type="String" array="False" size=""/>
+            <assign variable="maisc" expression="&quot;&quot;"/>
+            <for variable="i" start="0" end="len(nome)-1" direction="inc" step="1">
+                <if expression="char(nome,i)!=&quot; &quot;">
+                    <then>
+                        <if expression="ToCode(char(nome,i))&gt;91">
+                            <then>
+                                <assign variable="code" expression="Tocode(char(nome,i))-32"/>
+                                <assign variable="maisc" expression="maisc &amp;ToChar(code)"/>
+                            </then>
+                            <else>
+                                <assign variable="maisc" expression="maisc &amp; char(nome,i)"/>
+                            </else>
+                        </if>
+                    </then>
+                    <else>
+                        <assign variable="maisc" expression="maisc &amp;&quot; &quot;"/>
+                    </else>
+                </if>
+            </for>
+            <output expression="&quot;O nome convertido &#233; &quot; &amp;maisc" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Pedro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-11 12:37:37 "/>
+        <attribute name="created" value="UGVkcm87REVTS1RPUC1QRURST0xBOzIwMjEtMTEtMDk7IjA5OjU3OjA0ICI7MjgwNA=="/>
+        <attribute name="edited" value="UGVkcm87REVTS1RPUC1QRURST0xBOzIwMjEtMTEtMDk7IjEwOjA2OjI2ICI7MTt0b21hcztMQVBUT1AtUDcyT1Q2RTc7MjAyMS0xMS0wMjsiMTE6NDQ6MjQgIjt0ZXN0ZV8yMV8tX2Z1bmNhb18tX2NvbnRhcl9sZXRyYV9udW1fdGV4dG8uZnByZzsxMDQ3Nw=="/>
+        <attribute name="edited" value="UGVkcm87REVTS1RPUC1QRURST0xBOzIwMjEtMTEtMTA7IjAxOjI5OjAxICI7NDsyODk1"/>
+        <attribute name="edited" value="UGFkcm9sYTtMQVBUT1AtSlRRSTYyVjg7MjAyMS0xMS0xMTsiMTE6NTQ6NTAgIjsxO1BlZHJvO0RFU0tUT1AtUEVEUk9MQTsyMDIxLTExLTA5OyIwOTo1NzowNCAiO3NoaXQzLmZwcmc7Njk1Mg=="/>
+        <attribute name="edited" value="UGFkcm9sYTtMQVBUT1AtSlRRSTYyVjg7MjAyMS0xMS0xMTsiMTI6MTg6MDUgIjsxO1BlZHJvO0RFU0tUT1AtUEVEUk9MQTsyMDIxLTExLTA2OyIwMTowODoyOCAiO1RQMS0xMS1QYXJhTWFpw7pzY3VsYXMuZnByZzs4NDIy"/>
+        <attribute name="edited" value="UGFkcm9sYTtMQVBUT1AtSlRRSTYyVjg7MjAyMS0xMS0xMTsiMTI6Mzc6MzcgIjs5OzMwNzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, maior, final, code" type="Integer" array="False" size=""/>
+            <declare name="texto, letra, caractere, textof" type="String" array="False" size=""/>
+            <assign variable="letra" expression="&quot;&quot;"/>
+            <assign variable="caractere" expression="&quot;&quot;"/>
+            <assign variable="final" expression="0"/>
+            <assign variable="i" expression="0"/>
+            <assign variable="textof" expression="&quot;&quot;"/>
+            <output expression="&quot;Programa Caractere com mais Ocorrencias&quot;" newline="True"/>
+            <output expression="&quot;Introduza um texto e ser&#225; lhe indicado o caractere com mais ocorr&#234;ncias&quot;" newline="True"/>
+            <input variable="texto"/>
+            <for variable="i" start="0" end="len(texto)-1" direction="inc" step="1">
+                <if expression="ToCode(char(texto,i))&gt;91">
+                    <then>
+                        <assign variable="code" expression="Tocode(char(texto,i))-32"/>
+                        <assign variable="letra" expression="ToChar(code)"/>
+                    </then>
+                    <else>
+                        <assign variable="letra" expression="char(texto,i)"/>
+                    </else>
+                </if>
+                <assign variable="textof" expression="textof &amp; letra"/>
+            </for>
+            <declare name="numocorr" type="Integer" array="True" size="len(texto)"/>
+            <assign variable="caractere" expression="caractereMaisOcorrencias(letra,textof,numocorr)"/>
+            <for variable="i" start="0" end="len(textof) -1" direction="inc" step="1">
+                <if expression="char(textof,i) ==caractere">
+                    <then>
+                        <assign variable="final" expression="final+1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;O caractere com mais ocorr&#234;ncias foi o caractere &quot; &amp;caractere&amp; &quot; com &quot; &amp;final&amp; &quot; ocorr&#234;ncias&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="caractereMaisOcorrencias" type="String" variable="caractere">
+        <parameters>
+            <parameter name="letra" type="String" array="False"/>
+            <parameter name="textof" type="String" array="False"/>
+            <parameter name="numocorr" type="Integer" array="True"/>
+        </parameters>
+        <body>
+            <declare name="i, maior, ig, iguais, code" type="Integer" array="False" size=""/>
+            <declare name="caractere, igual" type="String" array="False" size=""/>
+            <assign variable="maior" expression="0"/>
+            <assign variable="igual" expression="&quot;&quot;"/>
+            <assign variable="iguais" expression="0"/>
+            <for variable="i" start="0" end="len(textof)-1" direction="inc" step="1">
+                <assign variable="letra" expression="char(textof,i)"/>
+                <if expression="letra!=&quot; &quot;">
+                    <then>
+                        <assign variable="numocorr[i]" expression="contarOcorrencias(textof,letra,igual)"/>
+                        <assign variable="igual" expression="igual &amp; letra"/>
+                        <if expression="numocorr[i]&gt;maior">
+                            <then>
+                                <assign variable="maior" expression="numocorr[i]"/>
+                                <assign variable="caractere" expression="letra"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+    <function name="contarOcorrencias" type="Integer" variable="result">
+        <parameters>
+            <parameter name="textof" type="String" array="False"/>
+            <parameter name="letra" type="String" array="False"/>
+            <parameter name="igual" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="result, i, ig, iguais" type="Integer" array="False" size=""/>
+            <declare name="numocorr" type="Integer" array="True" size="len(textof)"/>
+            <assign variable="iguais" expression="0"/>
+            <assign variable="result" expression="0"/>
+            <for variable="ig" start="0" end="len(igual)-1" direction="inc" step="1">
+                <if expression="char(igual,ig) ==letra">
+                    <then>
+                        <assign variable="iguais" expression="iguais+1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <if expression="iguais==0">
+                <then>
+                    <for variable="i" start="0" end="len(textof) -1" direction="inc" step="1">
+                        <if expression="char(textof,i) ==letra">
+                            <then>
+                                <assign variable="result" expression="result+1"/>
+                            </then>
+                            <else/>
+                        </if>
+                        <assign variable="iguais" expression="0"/>
+                    </for>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

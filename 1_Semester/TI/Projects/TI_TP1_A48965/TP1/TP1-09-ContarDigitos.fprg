@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Padrola"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-05 02:23:45 "/>
+        <attribute name="created" value="UGFkcm9sYTtMQVBUT1AtSlRRSTYyVjg7MjAyMS0xMC0yNjsiMTE6NDc6NTcgIjsyOTY4"/>
+        <attribute name="edited" value="UGFkcm9sYTtMQVBUT1AtSlRRSTYyVjg7MjAyMS0xMC0yNjsiMTI6MDU6MjcgIjsyOzMwNjk="/>
+        <attribute name="edited" value="UGVkcm87REVTS1RPUC1QRURST0xBOzIwMjEtMTEtMDU7IjAyOjIzOjQ1ICI7MjsyOTAw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Somar Digitos&quot;" newline="True"/>
+            <output expression="&quot;Introduza um valor inteiro positivo&quot;" newline="True"/>
+            <declare name="car, digito, aux, valor" type="Integer" array="False" size=""/>
+            <input variable="valor"/>
+            <while expression="valor&lt;0 || valor!=int(valor)">
+                <output expression="&quot;Valor inv&#225;lido, introduza um valor inteiro e positivo&quot;" newline="True"/>
+                <input variable="valor"/>
+            </while>
+            <assign variable="car" expression="0"/>
+            <assign variable="aux" expression="valor"/>
+            <while expression="aux &gt; 0">
+                <assign variable="digito" expression="aux % 10"/>
+                <assign variable="car" expression="car + 1"/>
+                <assign variable="aux" expression="aux /10"/>
+            </while>
+            <output expression="&quot;O n&#250;mero &quot; &amp;valor&amp; &quot; t&#234;m &quot; &amp;car&amp; &quot; algarismos &quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
