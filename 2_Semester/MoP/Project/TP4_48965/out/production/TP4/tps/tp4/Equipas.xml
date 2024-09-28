@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<BaseDados>
+        
+    <Ligas>
+                
+        <Liga Comp="L">
+                        
+            <Nome>Portuguesa</Nome>
+                        
+            <Equipa Adeptos="3000">
+                                
+                <Nome>VFC</Nome>
+                                
+                <Estadio>Bonfim</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="35000">
+                                
+                <Nome>SLB</Nome>
+                                
+                <Estadio>Luz</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="100">
+                                
+                <Nome>SCB</Nome>
+                                
+                <Estadio>Pedreira</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="29400">
+                                
+                <Nome>FCP</Nome>
+                                
+                <Estadio>Dragão</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="15000">
+                                
+                <Nome>VSC</Nome>
+                                
+                <Estadio>D.Afonso Henriques</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="37500">
+                                
+                <Nome>SCP</Nome>
+                                
+                <Estadio>Alvalade</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="10500">
+                                
+                <Nome>CFB</Nome>
+                                
+                <Estadio>Restelo</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="7000">
+                                
+                <Nome>BOA</Nome>
+                                
+                <Estadio>Bessa</Estadio>
+                            
+            </Equipa>
+                    
+        </Liga>
+                
+        <Liga Comp="L">
+                        
+            <Nome>Inglesa</Nome>
+                        
+            <Equipa Adeptos="23900">
+                                
+                <Nome>NEW</Nome>
+                                
+                <Estadio>St. James' Park</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="20060">
+                                
+                <Nome>LEI</Nome>
+                                
+                <Estadio>King Power</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="17004">
+                                
+                <Nome>ARS</Nome>
+                                
+                <Estadio>Emirates</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="100">
+                                
+                <Nome>CHE</Nome>
+                                
+                <Estadio>Stamford Bridge</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="10">
+                                
+                <Nome>MNC</Nome>
+                                
+                <Estadio>Etihad</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="51144">
+                                
+                <Nome>MNU</Nome>
+                                
+                <Estadio>Luz</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="50000">
+                                
+                <Nome>LIV</Nome>
+                                
+                <Estadio>Anfield</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="11000">
+                                
+                <Nome>TOT</Nome>
+                                
+                <Estadio>White Hart Lane</Estadio>
+                            
+            </Equipa>
+                    
+        </Liga>
+                
+        <Liga Comp="L">
+                        
+            <Nome>Espanhola</Nome>
+                        
+            <Equipa Adeptos="7000">
+                                
+                <Nome>SEV</Nome>
+                                
+                <Estadio>Ramón Sánchez Pizjuán</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="3000">
+                                
+                <Nome>ATB</Nome>
+                                
+                <Estadio>San Mamés</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="7000">
+                                
+                <Nome>VIL</Nome>
+                                
+                <Estadio>El Madrigal</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="60000">
+                                
+                <Nome>FCB</Nome>
+                                
+                <Estadio>Camp Nou</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="10500">
+                                
+                <Nome>VAL</Nome>
+                                
+                <Estadio>Mestalla</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="33547">
+                                
+                <Nome>ATM</Nome>
+                                
+                <Estadio>Wanda Metropolitano</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="15555">
+                                
+                <Nome>BET</Nome>
+                                
+                <Estadio>Benito Villamarín</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="75000">
+                                
+                <Nome>RMA</Nome>
+                                
+                <Estadio>Santiago Bernabéu</Estadio>
+                            
+            </Equipa>
+                    
+        </Liga>
+                
+        <Liga Comp="L">
+                        
+            <Nome>Italiana</Nome>
+                        
+            <Equipa Adeptos="33000">
+                                
+                <Nome>MIL</Nome>
+                                
+                <Estadio>San Siro</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="33000">
+                                
+                <Nome>INT</Nome>
+                                
+                <Estadio>San Síro</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="19000">
+                                
+                <Nome>ROM</Nome>
+                                
+                <Estadio>Olímpico de Roma</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="7500">
+                                
+                <Nome>LAZ</Nome>
+                                
+                <Estadio>Olimpico de Roma</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="25000">
+                                
+                <Nome>JUV</Nome>
+                                
+                <Estadio>Juventus</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="15000">
+                                
+                <Nome>NAP</Nome>
+                                
+                <Estadio>Diego Armando Maradona</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="5000">
+                                
+                <Nome>ATT</Nome>
+                                
+                <Estadio>Atleti Azzurri d'Italia</Estadio>
+                            
+            </Equipa>
+                        
+            <Equipa Adeptos="10500">
+                                
+                <Nome>FIO</Nome>
+                                
+                <Estadio>Artemio Franchi</Estadio>
+                            
+            </Equipa>
+                    
+        </Liga>
+            
+    </Ligas>
+        
+
+    <Torneios>
+                
+        <Torneio Comp="T" Vencedor="LEI">
+                        
+            <Nome>Europa</Nome>
+                        
+            <Liga Comp="L">
+                                
+                <Nome>Portuguesa</Nome>
+                                
+                <Equipa Adeptos="3000">
+                                        
+                    <Nome>VFC</Nome>
+                                        
+                    <Estadio>Bonfim</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="35000">
+                                        
+                    <Nome>SLB</Nome>
+                                        
+                    <Estadio>Luz</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="100">
+                                        
+                    <Nome>SCB</Nome>
+                                        
+                    <Estadio>Pedreira</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="29400">
+                                        
+                    <Nome>FCP</Nome>
+                                        
+                    <Estadio>Dragão</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="15000">
+                                        
+                    <Nome>VSC</Nome>
+                                        
+                    <Estadio>D.Afonso Henriques</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="37500">
+                                        
+                    <Nome>SCP</Nome>
+                                        
+                    <Estadio>Alvalade</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="10500">
+                                        
+                    <Nome>CFB</Nome>
+                                        
+                    <Estadio>Restelo</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="7000">
+                                        
+                    <Nome>BOA</Nome>
+                                        
+                    <Estadio>Bessa</Estadio>
+                                    
+                </Equipa>
+                            
+            </Liga>
+                        
+            <Liga Comp="L">
+                                
+                <Nome>Inglesa</Nome>
+                                
+                <Equipa Adeptos="23900">
+                                        
+                    <Nome>NEW</Nome>
+                                        
+                    <Estadio>St. James' Park</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="20060">
+                                        
+                    <Nome>LEI</Nome>
+                                        
+                    <Estadio>King Power</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="17004">
+                                        
+                    <Nome>ARS</Nome>
+                                        
+                    <Estadio>Emirates</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="100">
+                                        
+                    <Nome>CHE</Nome>
+                                        
+                    <Estadio>Stamford Bridge</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="10">
+                                        
+                    <Nome>MNC</Nome>
+                                        
+                    <Estadio>Etihad</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="51144">
+                                        
+                    <Nome>MNU</Nome>
+                                        
+                    <Estadio>Luz</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="50000">
+                                        
+                    <Nome>LIV</Nome>
+                                        
+                    <Estadio>Anfield</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="11000">
+                                        
+                    <Nome>TOT</Nome>
+                                        
+                    <Estadio>White Hart Lane</Estadio>
+                                    
+                </Equipa>
+                            
+            </Liga>
+                        
+            <Liga Comp="L">
+                                
+                <Nome>Espanhola</Nome>
+                                
+                <Equipa Adeptos="7000">
+                                        
+                    <Nome>SEV</Nome>
+                                        
+                    <Estadio>Ramón Sánchez Pizjuán</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="3000">
+                                        
+                    <Nome>ATB</Nome>
+                                        
+                    <Estadio>San Mamés</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="7000">
+                                        
+                    <Nome>VIL</Nome>
+                                        
+                    <Estadio>El Madrigal</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="60000">
+                                        
+                    <Nome>FCB</Nome>
+                                        
+                    <Estadio>Camp Nou</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="10500">
+                                        
+                    <Nome>VAL</Nome>
+                                        
+                    <Estadio>Mestalla</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="33547">
+                                        
+                    <Nome>ATM</Nome>
+                                        
+                    <Estadio>Wanda Metropolitano</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="15555">
+                                        
+                    <Nome>BET</Nome>
+                                        
+                    <Estadio>Benito Villamarín</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="75000">
+                                        
+                    <Nome>RMA</Nome>
+                                        
+                    <Estadio>Santiago Bernabéu</Estadio>
+                                    
+                </Equipa>
+                            
+            </Liga>
+                        
+            <Liga Comp="L">
+                                
+                <Nome>Italiana</Nome>
+                                
+                <Equipa Adeptos="33000">
+                                        
+                    <Nome>MIL</Nome>
+                                        
+                    <Estadio>San Siro</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="33000">
+                                        
+                    <Nome>INT</Nome>
+                                        
+                    <Estadio>San Síro</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="19000">
+                                        
+                    <Nome>ROM</Nome>
+                                        
+                    <Estadio>Olímpico de Roma</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="7500">
+                                        
+                    <Nome>LAZ</Nome>
+                                        
+                    <Estadio>Olimpico de Roma</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="25000">
+                                        
+                    <Nome>JUV</Nome>
+                                        
+                    <Estadio>Juventus</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="15000">
+                                        
+                    <Nome>NAP</Nome>
+                                        
+                    <Estadio>Diego Armando Maradona</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="5000">
+                                        
+                    <Nome>ATT</Nome>
+                                        
+                    <Estadio>Atleti Azzurri d'Italia</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="10500">
+                                        
+                    <Nome>FIO</Nome>
+                                        
+                    <Estadio>Artemio Franchi</Estadio>
+                                    
+                </Equipa>
+                            
+            </Liga>
+                    
+        </Torneio>
+                
+        <Torneio Comp="T" Vencedor="LEI">
+                        
+            <Nome>Champions League</Nome>
+                        
+            <Torneio Comp="T" Vencedor="LEI">
+                                
+                <Nome>Europa</Nome>
+                                
+                <Liga Comp="L">
+                                        
+                    <Nome>Portuguesa</Nome>
+                                        
+                    <Equipa Adeptos="3000">
+                                                
+                        <Nome>VFC</Nome>
+                                                
+                        <Estadio>Bonfim</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="35000">
+                                                
+                        <Nome>SLB</Nome>
+                                                
+                        <Estadio>Luz</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="100">
+                                                
+                        <Nome>SCB</Nome>
+                                                
+                        <Estadio>Pedreira</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="29400">
+                                                
+                        <Nome>FCP</Nome>
+                                                
+                        <Estadio>Dragão</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="15000">
+                                                
+                        <Nome>VSC</Nome>
+                                                
+                        <Estadio>D.Afonso Henriques</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="37500">
+                                                
+                        <Nome>SCP</Nome>
+                                                
+                        <Estadio>Alvalade</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="10500">
+                                                
+                        <Nome>CFB</Nome>
+                                                
+                        <Estadio>Restelo</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="7000">
+                                                
+                        <Nome>BOA</Nome>
+                                                
+                        <Estadio>Bessa</Estadio>
+                                            
+                    </Equipa>
+                                    
+                </Liga>
+                                
+                <Liga Comp="L">
+                                        
+                    <Nome>Inglesa</Nome>
+                                        
+                    <Equipa Adeptos="23900">
+                                                
+                        <Nome>NEW</Nome>
+                                                
+                        <Estadio>St. James' Park</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="20060">
+                                                
+                        <Nome>LEI</Nome>
+                                                
+                        <Estadio>King Power</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="17004">
+                                                
+                        <Nome>ARS</Nome>
+                                                
+                        <Estadio>Emirates</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="100">
+                                                
+                        <Nome>CHE</Nome>
+                                                
+                        <Estadio>Stamford Bridge</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="10">
+                                                
+                        <Nome>MNC</Nome>
+                                                
+                        <Estadio>Etihad</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="51144">
+                                                
+                        <Nome>MNU</Nome>
+                                                
+                        <Estadio>Luz</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="50000">
+                                                
+                        <Nome>LIV</Nome>
+                                                
+                        <Estadio>Anfield</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="11000">
+                                                
+                        <Nome>TOT</Nome>
+                                                
+                        <Estadio>White Hart Lane</Estadio>
+                                            
+                    </Equipa>
+                                    
+                </Liga>
+                                
+                <Liga Comp="L">
+                                        
+                    <Nome>Espanhola</Nome>
+                                        
+                    <Equipa Adeptos="7000">
+                                                
+                        <Nome>SEV</Nome>
+                                                
+                        <Estadio>Ramón Sánchez Pizjuán</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="3000">
+                                                
+                        <Nome>ATB</Nome>
+                                                
+                        <Estadio>San Mamés</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="7000">
+                                                
+                        <Nome>VIL</Nome>
+                                                
+                        <Estadio>El Madrigal</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="60000">
+                                                
+                        <Nome>FCB</Nome>
+                                                
+                        <Estadio>Camp Nou</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="10500">
+                                                
+                        <Nome>VAL</Nome>
+                                                
+                        <Estadio>Mestalla</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="33547">
+                                                
+                        <Nome>ATM</Nome>
+                                                
+                        <Estadio>Wanda Metropolitano</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="15555">
+                                                
+                        <Nome>BET</Nome>
+                                                
+                        <Estadio>Benito Villamarín</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="75000">
+                                                
+                        <Nome>RMA</Nome>
+                                                
+                        <Estadio>Santiago Bernabéu</Estadio>
+                                            
+                    </Equipa>
+                                    
+                </Liga>
+                                
+                <Liga Comp="L">
+                                        
+                    <Nome>Italiana</Nome>
+                                        
+                    <Equipa Adeptos="33000">
+                                                
+                        <Nome>MIL</Nome>
+                                                
+                        <Estadio>San Siro</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="33000">
+                                                
+                        <Nome>INT</Nome>
+                                                
+                        <Estadio>San Síro</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="19000">
+                                                
+                        <Nome>ROM</Nome>
+                                                
+                        <Estadio>Olímpico de Roma</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="7500">
+                                                
+                        <Nome>LAZ</Nome>
+                                                
+                        <Estadio>Olimpico de Roma</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="25000">
+                                                
+                        <Nome>JUV</Nome>
+                                                
+                        <Estadio>Juventus</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="15000">
+                                                
+                        <Nome>NAP</Nome>
+                                                
+                        <Estadio>Diego Armando Maradona</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="5000">
+                                                
+                        <Nome>ATT</Nome>
+                                                
+                        <Estadio>Atleti Azzurri d'Italia</Estadio>
+                                            
+                    </Equipa>
+                                        
+                    <Equipa Adeptos="10500">
+                                                
+                        <Nome>FIO</Nome>
+                                                
+                        <Estadio>Artemio Franchi</Estadio>
+                                            
+                    </Equipa>
+                                    
+                </Liga>
+                            
+            </Torneio>
+                        
+            <Liga Comp="L">
+                                
+                <Nome>Inglesa</Nome>
+                                
+                <Equipa Adeptos="23900">
+                                        
+                    <Nome>NEW</Nome>
+                                        
+                    <Estadio>St. James' Park</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="20060">
+                                        
+                    <Nome>LEI</Nome>
+                                        
+                    <Estadio>King Power</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="17004">
+                                        
+                    <Nome>ARS</Nome>
+                                        
+                    <Estadio>Emirates</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="100">
+                                        
+                    <Nome>CHE</Nome>
+                                        
+                    <Estadio>Stamford Bridge</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="10">
+                                        
+                    <Nome>MNC</Nome>
+                                        
+                    <Estadio>Etihad</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="51144">
+                                        
+                    <Nome>MNU</Nome>
+                                        
+                    <Estadio>Luz</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="50000">
+                                        
+                    <Nome>LIV</Nome>
+                                        
+                    <Estadio>Anfield</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="11000">
+                                        
+                    <Nome>TOT</Nome>
+                                        
+                    <Estadio>White Hart Lane</Estadio>
+                                    
+                </Equipa>
+                            
+            </Liga>
+                        
+            <Liga Comp="L">
+                                
+                <Nome>Espanhola</Nome>
+                                
+                <Equipa Adeptos="7000">
+                                        
+                    <Nome>SEV</Nome>
+                                        
+                    <Estadio>Ramón Sánchez Pizjuán</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="3000">
+                                        
+                    <Nome>ATB</Nome>
+                                        
+                    <Estadio>San Mamés</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="7000">
+                                        
+                    <Nome>VIL</Nome>
+                                        
+                    <Estadio>El Madrigal</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="60000">
+                                        
+                    <Nome>FCB</Nome>
+                                        
+                    <Estadio>Camp Nou</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="10500">
+                                        
+                    <Nome>VAL</Nome>
+                                        
+                    <Estadio>Mestalla</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="33547">
+                                        
+                    <Nome>ATM</Nome>
+                                        
+                    <Estadio>Wanda Metropolitano</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="15555">
+                                        
+                    <Nome>BET</Nome>
+                                        
+                    <Estadio>Benito Villamarín</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="75000">
+                                        
+                    <Nome>RMA</Nome>
+                                        
+                    <Estadio>Santiago Bernabéu</Estadio>
+                                    
+                </Equipa>
+                            
+            </Liga>
+                        
+            <Liga Comp="L">
+                                
+                <Nome>Italiana</Nome>
+                                
+                <Equipa Adeptos="33000">
+                                        
+                    <Nome>MIL</Nome>
+                                        
+                    <Estadio>San Siro</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="33000">
+                                        
+                    <Nome>INT</Nome>
+                                        
+                    <Estadio>San Síro</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="19000">
+                                        
+                    <Nome>ROM</Nome>
+                                        
+                    <Estadio>Olímpico de Roma</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="7500">
+                                        
+                    <Nome>LAZ</Nome>
+                                        
+                    <Estadio>Olimpico de Roma</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="25000">
+                                        
+                    <Nome>JUV</Nome>
+                                        
+                    <Estadio>Juventus</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="15000">
+                                        
+                    <Nome>NAP</Nome>
+                                        
+                    <Estadio>Diego Armando Maradona</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="5000">
+                                        
+                    <Nome>ATT</Nome>
+                                        
+                    <Estadio>Atleti Azzurri d'Italia</Estadio>
+                                    
+                </Equipa>
+                                
+                <Equipa Adeptos="10500">
+                                        
+                    <Nome>FIO</Nome>
+                                        
+                    <Estadio>Artemio Franchi</Estadio>
+                                    
+                </Equipa>
+                            
+            </Liga>
+                    
+        </Torneio>
+            
+        <Torneio Comp="T" Vencedor="INT">
+            <Nome>Champions League</Nome>
+            <Liga Comp="L">
+                <Nome>Portuguesa</Nome>
+                <Equipa Adeptos="3000">
+                    <Nome>VFC</Nome>
+                    <Estadio>Bonfim</Estadio>
+                </Equipa>
+                <Equipa Adeptos="35000">
+                    <Nome>SLB</Nome>
+                    <Estadio>Luz</Estadio>
+                </Equipa>
+                <Equipa Adeptos="100">
+                    <Nome>SCB</Nome>
+                    <Estadio>Pedreira</Estadio>
+                </Equipa>
+                <Equipa Adeptos="29400">
+                    <Nome>FCP</Nome>
+                    <Estadio>Dragão</Estadio>
+                </Equipa>
+                <Equipa Adeptos="15000">
+                    <Nome>VSC</Nome>
+                    <Estadio>D.Afonso Henriques</Estadio>
+                </Equipa>
+                <Equipa Adeptos="37500">
+                    <Nome>SCP</Nome>
+                    <Estadio>Alvalade</Estadio>
+                </Equipa>
+                <Equipa Adeptos="10500">
+                    <Nome>CFB</Nome>
+                    <Estadio>Restelo</Estadio>
+                </Equipa>
+                <Equipa Adeptos="7000">
+                    <Nome>BOA</Nome>
+                    <Estadio>Bessa</Estadio>
+                </Equipa>
+            </Liga>
+            <Liga Comp="L">
+                <Nome>Inglesa</Nome>
+                <Equipa Adeptos="23900">
+                    <Nome>NEW</Nome>
+                    <Estadio>St. James' Park</Estadio>
+                </Equipa>
+                <Equipa Adeptos="20060">
+                    <Nome>LEI</Nome>
+                    <Estadio>King Power</Estadio>
+                </Equipa>
+                <Equipa Adeptos="17004">
+                    <Nome>ARS</Nome>
+                    <Estadio>Emirates</Estadio>
+                </Equipa>
+                <Equipa Adeptos="100">
+                    <Nome>CHE</Nome>
+                    <Estadio>Stamford Bridge</Estadio>
+                </Equipa>
+                <Equipa Adeptos="10">
+                    <Nome>MNC</Nome>
+                    <Estadio>Etihad</Estadio>
+                </Equipa>
+                <Equipa Adeptos="51144">
+                    <Nome>MNU</Nome>
+                    <Estadio>Luz</Estadio>
+                </Equipa>
+                <Equipa Adeptos="50000">
+                    <Nome>LIV</Nome>
+                    <Estadio>Anfield</Estadio>
+                </Equipa>
+                <Equipa Adeptos="11000">
+                    <Nome>TOT</Nome>
+                    <Estadio>White Hart Lane</Estadio>
+                </Equipa>
+            </Liga>
+            <Liga Comp="L">
+                <Nome>Espanhola</Nome>
+                <Equipa Adeptos="7000">
+                    <Nome>SEV</Nome>
+                    <Estadio>Ramón Sánchez Pizjuán</Estadio>
+                </Equipa>
+                <Equipa Adeptos="3000">
+                    <Nome>ATB</Nome>
+                    <Estadio>San Mamés</Estadio>
+                </Equipa>
+                <Equipa Adeptos="7000">
+                    <Nome>VIL</Nome>
+                    <Estadio>El Madrigal</Estadio>
+                </Equipa>
+                <Equipa Adeptos="60000">
+                    <Nome>FCB</Nome>
+                    <Estadio>Camp Nou</Estadio>
+                </Equipa>
+                <Equipa Adeptos="10500">
+                    <Nome>VAL</Nome>
+                    <Estadio>Mestalla</Estadio>
+                </Equipa>
+                <Equipa Adeptos="33547">
+                    <Nome>ATM</Nome>
+                    <Estadio>Wanda Metropolitano</Estadio>
+                </Equipa>
+                <Equipa Adeptos="15555">
+                    <Nome>BET</Nome>
+                    <Estadio>Benito Villamarín</Estadio>
+                </Equipa>
+                <Equipa Adeptos="75000">
+                    <Nome>RMA</Nome>
+                    <Estadio>Santiago Bernabéu</Estadio>
+                </Equipa>
+            </Liga>
+            <Liga Comp="L">
+                <Nome>Italiana</Nome>
+                <Equipa Adeptos="33000">
+                    <Nome>MIL</Nome>
+                    <Estadio>San Siro</Estadio>
+                </Equipa>
+                <Equipa Adeptos="33000">
+                    <Nome>INT</Nome>
+                    <Estadio>San Síro</Estadio>
+                </Equipa>
+                <Equipa Adeptos="19000">
+                    <Nome>ROM</Nome>
+                    <Estadio>Olímpico de Roma</Estadio>
+                </Equipa>
+                <Equipa Adeptos="7500">
+                    <Nome>LAZ</Nome>
+                    <Estadio>Olimpico de Roma</Estadio>
+                </Equipa>
+                <Equipa Adeptos="25000">
+                    <Nome>JUV</Nome>
+                    <Estadio>Juventus</Estadio>
+                </Equipa>
+                <Equipa Adeptos="15000">
+                    <Nome>NAP</Nome>
+                    <Estadio>Diego Armando Maradona</Estadio>
+                </Equipa>
+                <Equipa Adeptos="5000">
+                    <Nome>ATT</Nome>
+                    <Estadio>Atleti Azzurri d'Italia</Estadio>
+                </Equipa>
+                <Equipa Adeptos="10500">
+                    <Nome>FIO</Nome>
+                    <Estadio>Artemio Franchi</Estadio>
+                </Equipa>
+            </Liga>
+        </Torneio>
+    </Torneios>
+</BaseDados>

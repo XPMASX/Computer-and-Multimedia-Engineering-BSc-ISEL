@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE BaseDados [
+        <!ELEMENT BaseDados (Equipas|Ligas|Torneios)*>
+        <!ELEMENT Equipas (Equipa)*>
+        <!ELEMENT Equipa (Nome|Estadio)*>
+        <!ATTLIST Equipa
+                Adeptos CDATA #REQUIRED>
+        <!ELEMENT Nome (#PCDATA)>
+        <!ELEMENT Estadio (#PCDATA)>
+        <!ELEMENT Ligas (Liga)*>
+        <!ELEMENT Liga (Nome|Equipa)*>
+        <!ATTLIST Liga
+                Comp CDATA #REQUIRED>
+        <!ELEMENT Torneios (Torneio)*>
+        <!ELEMENT Torneio (Nome|Liga|Torneio)*>
+        <!ATTLIST Torneio
+                Comp CDATA #REQUIRED
+                Vencedor CDATA #REQUIRED>
+        ]>

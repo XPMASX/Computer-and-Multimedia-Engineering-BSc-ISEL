@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"tp1.pack2Livros","l":"Coleccao"},{"p":"tp1.pack3Coleccoes","l":"Coleccao"},{"p":"tp1.pack2Livros","l":"Livro"},{"p":"tp1.pack1Revisoes","l":"P01CheckPrime"},{"p":"tp1.pack1Revisoes","l":"P02FourInaRow"},{"p":"tp1.pack1Revisoes","l":"P03WorkWithStrings"}];updateSearchResults();

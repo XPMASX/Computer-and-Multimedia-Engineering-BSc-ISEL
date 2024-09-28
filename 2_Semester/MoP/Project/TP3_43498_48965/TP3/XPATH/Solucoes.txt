@@ -1,0 +1,58 @@
+a) XPathExpression expression = xpath.compile("//Espetaculo[@numBilhetes>=500]/Nome/text()");
+            Object result = expression.evaluate(doc, XPathConstants.NODESET);
+            NodeList nodes = (NodeList) result;
+
+for (int i = 0; i < nodes.getLength(); i++){
+                System.out.println("Resposta-> " + nodes.item(i).getNodeValue());
+            }
+
+
+b) expression = xpath.compile("//Festival[Nome='Músicas do Mundo']/Eventos/*[1]/Nome/text()");
+           result = expression.evaluate(doc, XPathConstants.NODESET);
+           nodes = (NodeList) result;
+
+for (int i = 0; i < nodes.getLength(); i++){
+              System.out.println("Resposta-> " + nodes.item(i).getNodeValue());
+          }
+
+
+c) expression = xpath.compile("//Espetaculo[Artistas[Artista='Pablo Milanés']]/Nome/text()");
+          result = expression.evaluate(doc, XPathConstants.NODESET);
+          nodes = (NodeList) result;
+
+for (int i = 0; i < nodes.getLength(); i++){
+              System.out.println("Resposta-> " + nodes.item(i).getNodeValue());
+          }
+
+d) expression = xpath.compile("count(//Festival[Nome='Música Cubana']/Eventos/*)");
+          result = expression.evaluate(doc, XPathConstants.NUMBER);
+          double count = (Double) result;
+
+System.out.println("Resposta-> " + count);
+
+
+e) expression = xpath.compile("//Patrocinador[Nome='EDP']/@codEvento");
+          result = expression.evaluate(doc, XPathConstants.NODESET);
+          nodes = (NodeList) result;
+          String aux = null;
+
+          for (int i = 0; i < nodes.getLength(); i++){
+              aux = nodes.item(i).getNodeValue();
+          }
+          
+          expression = xpath.compile("//Eventos//*[@*='"+ aux + "']/Nome/text()");
+          result = expression.evaluate(doc, XPathConstants.NODESET);
+          nodes = (NodeList) result;
+
+          for (int i = 0; i < nodes.getLength(); i++){
+              System.out.println("Resposta-> " + nodes.item(i).getNodeValue());
+          }
+
+
+f) expression = xpath.compile("//Espetaculo[Nome='Pablo Milanés']/following::Espetaculo/Nome/text()");
+            result = expression.evaluate(doc, XPathConstants.NODESET);
+            nodes = (NodeList) result;
+
+            for (int i = 0; i < nodes.getLength(); i++){
+                System.out.println("Resposta-> " + nodes.item(i).getNodeValue());
+            }
