@@ -7,3 +7,7 @@ It is organized by year, semester and subject. For every subject it was included
 The diagram of the bachelors program:
 
 ![LeimPlano](https://github.com/user-attachments/assets/27291093-020e-461b-b279-39a075744854)
+
+# 1st Year
+
+## 1st Semester
