@@ -8,6 +8,26 @@ The diagram of the bachelors program:
 
 ![LeimPlano](https://github.com/user-attachments/assets/27291093-020e-461b-b279-39a075744854)
 
-# 1st Year
+# 1st Semester
 
-## 1st Semester
+# 2nd Semester
+
+# 3rd Semester
+
+# 4th Semester
+
+# 5th Semester
+
+# 6th Semester
+## DAM - Mobile Applications - Video Game Collection Tracker:
+Project developed for the Mobile Applications course, allows users to log, rate, and review video games while tracking their gaming history.
+Built with Kotlin, Firebase, and the IGDB API.
+
+## PRJ - Project - Cardiac Rehabilitation Support System:
+A full-stack web application designed to provide real-time access to essential health data for both patients and healthcare professionals,
+improving the monitoring and management of cardiac rehabilitation. Developed in collaboration with CardioID, the platform enables
+personalized rehabilitation plans, patient progress tracking, and remote medical supervision. Final project of the degree built with React,
+Falcon and MySQL.
+
+
+
