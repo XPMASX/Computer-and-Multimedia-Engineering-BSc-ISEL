@@ -17,11 +17,33 @@ The diagram of the bachelors program:
 # 4th Semester
 
 # 5th Semester
+## AA - Machine Learning - Beer Review Analyser:
+Developed for the Machine Learning course, this project aimed to analyze beer reviews from the RateBeer dataset to predict sentiment (positive/negative)
+and multi-class ratings (smell, taste, overall), using natural language processing (NLP) techniques and machine learning models to classify reviews,
+optimizing for accuracy and interpretability.
+
+## IPM - Human Computer Interaction - ISEL Website Usability Testing
+Conducted a comprehensive usability evaluation of a redesigned ISEL university website prototype (developed in Figma) to address pain points in the existing system.
+Focused on improving efficiency, learnability, and user satisfaction for 2nd/3rd-year engineering students.
+
+## PIV - Image Processing - 
+Developed a Python/OpenCV-based algorithm to detect, classify, and track moving objects (people/cars) in surveillance footage. 
+The system identifies active regions, classifies them in real-time, and generates trajectories with unique IDs, outputting an annotated video.
+
+## SBD - Database Systems - Health Club Management System:
+A full-stack application that provides role-specific functionalities for managers, personal trainers, and clients. Final project for the
+Database Systems course, built with Java, JavaServer Pages, JavaScript, and MySQL. The system enables managers to oversee club
+operations, personal trainers to manage schedules, and clients to enroll in training sessions, among other features.
 
 # 6th Semester
 ## DAM - Mobile Applications - Video Game Collection Tracker:
 Project developed for the Mobile Applications course, allows users to log, rate, and review video games while tracking their gaming history.
 Built with Kotlin, Firebase, and the IGDB API.
+
+## IAV - Interaction in Virtual Environments - Endless Runner Game:
+Project developed for the Interaction in Virtual Environments course, this Unity game allows players to select an ML-Agents trained car
+model that navigates a procedurally generated road, with sound as the primary control mechanism. The agents were trained by each
+student in the course using deep reinforcement learning in Python.
 
 ## PRJ - Project - Cardiac Rehabilitation Support System:
 A full-stack web application designed to provide real-time access to essential health data for both patients and healthcare professionals,
@@ -29,5 +51,9 @@ improving the monitoring and management of cardiac rehabilitation. Developed in 
 personalized rehabilitation plans, patient progress tracking, and remote medical supervision. Final project of the degree built with React,
 Falcon and MySQL.
 
+## SMI - Multimedia Systems for the Internet - Velespedia:
+Developed for the Internet Multimedia Systems course, this project involved implementing a MediaWiki-based CMS to create a platform similar to Wikipedia, 
+but focused on satirical and esoteric content. The system allows users to create, edit, and manage articles, with features like user authentication, 
+role-based permissions, and multimedia integration.
 
 
