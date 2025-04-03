@@ -22,11 +22,11 @@ Developed for the Machine Learning course, this project aimed to analyze beer re
 and multi-class ratings (smell, taste, overall), using natural language processing (NLP) techniques and machine learning models to classify reviews,
 optimizing for accuracy and interpretability.
 
-## IPM - Human Computer Interaction - ISEL Website Usability Testing
+## IPM - Human Computer Interaction - ISEL Website Usability Testing:
 Conducted a comprehensive usability evaluation of a redesigned ISEL university website prototype (developed in Figma) to address pain points in the existing system.
 Focused on improving efficiency, learnability, and user satisfaction for 2nd/3rd-year engineering students.
 
-## PIV - Image Processing - 
+## PIV - Image Processing - Sureveillance Motion Tracker:
 Developed a Python/OpenCV-based algorithm to detect, classify, and track moving objects (people/cars) in surveillance footage. 
 The system identifies active regions, classifies them in real-time, and generates trajectories with unique IDs, outputting an annotated video.
 
