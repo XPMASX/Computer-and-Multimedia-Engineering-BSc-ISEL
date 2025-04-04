@@ -1,2 +1,0 @@
-# BachelorsDegree-ISEL-LEIM
- 
