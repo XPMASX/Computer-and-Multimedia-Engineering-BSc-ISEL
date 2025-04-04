@@ -15,6 +15,27 @@ The diagram of the bachelors program:
 # 3rd Semester
 
 # 4th Semester
+## AAV - Animation in Virtual Environments - Cowboy Game:
+A cowboy-themed game developed in Unity for the Animation in Virtual Environments course, with the goal of learning the fundamentals
+of game development, including player movement, physics interactions, AI behavior, lighting, particle effects, audio, and animation. The
+project explores core concepts like scripting, UI design, and environmental effects.
+
+## IASA - Artificial Intelligence for Autonomous Systems - Autonomous Agent Simulation:
+Project developed for the Artificial Intelligence for Autonomous Systems course, focusing on the design and implementation of intelligent agents 
+capable of autonomous decision-making in dynamic environments. The project explored various AI paradigms, including reactive and deliberative agents, 
+state-space search algorithms (DFS, BFS, A*), and Markov Decision Processes (MDPs). Implemented in Python and Java, the simulation demonstrated adaptive
+behaviors such as target collection, obstacle avoidance, and optimal pathfinding using heuristic-based planning.
+
+## ICD -  Distributed Computational Infrastructures - Four in a Row LAN:
+A full-stack Four in a Row game developed for the Distributed Computational Infrastructures course, built with Java, JavaServer Pages,
+JavaScript, and XML. The application supports both console and web-based gameplay, featuring player authentication, profile
+customization, real-time matchmaking, and a leaderboard.
+
+## RCP - Computer Networks - Enterprise Network Deployment:
+Project developed for the Computer Networks course, focused on deploying and configuring critical network services (DHCP, DNS, and Web) in a simulated
+enterprise environment. The network topology included multiple LANs (A, B, and Servers), interconnected via routers with transit links. Key achievements
+included automated IP address allocation via DHCP, DNS resolution, and web server accessibility. Implemented using MikroTik routers and
+Cisco commands, with validation through ping and Telnet tests.
 
 # 5th Semester
 ## AA - Machine Learning - Beer Review Analyser:
