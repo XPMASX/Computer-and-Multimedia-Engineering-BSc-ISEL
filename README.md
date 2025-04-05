@@ -13,6 +13,24 @@ The diagram of the bachelors program:
 # 2nd Semester
 
 # 3rd Semester
+##EMP - Entrepreneurship - NICE Headphones: High-Quality Modular Audio Solution:
+A business project developed for the Entrepreneurship course, focusing on the creation of NICE Lda, a company dedicated to producing affordable, 
+high-fidelity modular headphones. The product features interchangeable components (drivers, ear pads, headbands) and targets audiophiles, gamers, 
+and music enthusiasts seeking premium sound at a competitive price.
+
+## FSO - Operating Systems Fundamentals - Robot Control System:
+Project developed for the Operating Systems Fundamentals course, featuring a Java-based GUI system to control an EV3 robot through three interconnected modules:
+REI (King), SUBDITO (Subject), and GRAVAR (Recorder). The system enables manual/automatic robot control, command logging, and movement sequence recording/playback.
+
+## MSSN - Modelling and Simulation of Natural Systems - Ecosystem Simulation:
+Project developed for the Modeling and Simulation of Natural Systems course, featuring an agent-based ecosystem simulation with prey, predators, and herbivores.
+The project explored evolutionary dynamics through five progressive simulations, each introducing new traits (speed, mass, vision) or species to analyze emergent 
+behaviors and equilibrium states. Implemented in Java with cellular automata for terrain management.
+
+## PCM - Multimedia Authoring - Image Search Application:
+Project developed for the Multimedia Content Production course, featuring an interactive web application for searching and filtering digital photos
+by keywords or color histograms. Built with HTML5, JavaScript, and XML, the app enables users to browse images from 14 categories and filter by 12 
+predefined colors using advanced pixel analysis.
 
 # 4th Semester
 ## AAV - Animation in Virtual Environments - Cowboy Game:
