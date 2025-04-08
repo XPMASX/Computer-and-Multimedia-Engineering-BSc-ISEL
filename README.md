@@ -11,9 +11,28 @@ The diagram of the bachelors program:
 # 1st Semester
 
 # 2nd Semester
+## CF - Physical Computing - Smart Weather Station with Arduino-Python Integration:
+Developed for the Physical Computing course, this project engineered a smart weather station using a state machine architecture to coordinate real-time data flow
+between BMP180/GY-89 sensors, an I2C LCD, and a Python GUI. The system leverages three synchronized finite state machines (FSMs) to reliably measure temperature, pressure, and altitude, with updates every 10 seconds.
+
+## MCG - Mathematics for Computer Graphics - 3D Geometric Transformations for Ray Tracing:
+Developed for the Mathematics for Computer Graphics course, this Python module implements a Transformacao (Transformation) class to compute 3D geometric
+transformations using homogeneous coordinates. Designed to integrate with a ray tracing pipeline, the project applies transformations (translation, scaling, shearing, rotations)
+to triangular meshes, which are then rendered into PPM images via a companion RayTracer class. The work demonstrates core graphics principles by manipulating 3D objects in a virtual
+scene and validating results through rendered outputs.
+
+## MOP - Modeling and Programming -  Football Competition Simulator:
+Developed as part of the Modeling and Programming course, this Java application simulates football leagues and tournaments with a focus on 
+object-oriented design, graphical user interfaces (GUI), and persistent data storage in XML. The project demonstrates mastery of software modeling, 
+event-driven programming, and data management, offering users an interactive way to simulate and track competitions.
+
+## PDS - Digital Signal Processing - Audio Classification & Reverberation System:
+A dual-component project implementing an audio classifier for whistle/handclap detection (85% accuracy using FFT and threshold-based classification) and a digital reverberation
+system based on Schröder's acoustic model. Developed signal processing algorithms for feature extraction (spectral peaks, zero-crossing rates) and filter design (comb/allpass filters
+with 30-45ms delays). Built with Python, NumPy/SciPy for analysis, and validated through impulse response testing and perceptual evaluation.
 
 # 3rd Semester
-##EMP - Entrepreneurship - NICE Headphones: High-Quality Modular Audio Solution:
+## EMP - Entrepreneurship - NICE Headphones: High-Quality Modular Audio Solution:
 A business project developed for the Entrepreneurship course, focusing on the creation of NICE Lda, a company dedicated to producing affordable, 
 high-fidelity modular headphones. The product features interchangeable components (drivers, ear pads, headbands) and targets audiophiles, gamers, 
 and music enthusiasts seeking premium sound at a competitive price.
