@@ -29,7 +29,7 @@ Developed for the Machine Learning course, this project aimed to analyze beer re
 
 ###  Technologies Used:
 
-- Python (scikit-learn, NLTK, pandas)  
+- Python (scikit-learn, NLTK, pandas), Jupyter Notebook
 - NLP techniques: Bag-of-Words, TF-IDF, n-grams  
 - ML models: Logistic Regression, Naive Bayes  
 - PCA for feature reduction
