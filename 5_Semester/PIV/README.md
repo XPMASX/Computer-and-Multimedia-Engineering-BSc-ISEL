@@ -1,4 +1,6 @@
-# PIV - Image Processing - Surveillance Motion Tracker
+# PIV - Image Processing
+
+## TP2 - Surveillance Motion Tracker
 
 ### Project Description:
 Developed a Python/OpenCV-based algorithm to detect, classify, and track moving objects (people/cars) in surveillance footage. The system identifies active regions, classifies them in real-time, and generates trajectories with unique IDs, outputting an annotated video.
