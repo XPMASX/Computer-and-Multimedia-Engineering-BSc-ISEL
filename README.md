@@ -10,7 +10,7 @@ The diagram of the bachelors program:
 
 
 # 1st Semester
-## [MAE - Applied Mathematics to Engineering - Circuit Trajectory Simulator](1st_Semester/MAE/)
+## [MAE - Applied Mathematics to Engineering - Circuit Trajectory Simulator](https://github.com/XPMASX/Computer-and-Multimedia-Engineering-BSc-ISEL/tree/main/1_Semester/MAE)
 Project developed for the Mathematics Applied to Engineering course, simulates a car moving along a custom-designed circuit. The program ensures the object follows
 a parametrized path composed of at least three distinct segments, including straight, parabolic sections and elliptical curves. Key features include adjustable speeds, 
 dynamic orientation of the object, and real-time velocity display. Built with Python and Pygame, the project demonstrates parametric equations and trajectory modeling.
