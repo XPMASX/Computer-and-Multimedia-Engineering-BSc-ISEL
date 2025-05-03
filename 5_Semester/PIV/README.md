@@ -24,3 +24,11 @@ Developed a Python/OpenCV-based algorithm to detect, classify, and track moving 
 
 - **Python**, **OpenCV** (for image processing), **Jupyter Notebook**  
 - Median filtering, morphological ops (erosion/dilation), contour analysis
+
+## Demonstration:
+
+
+
+https://github.com/user-attachments/assets/be43ed46-5004-4e97-a1a4-5d48363410b1
+
+
