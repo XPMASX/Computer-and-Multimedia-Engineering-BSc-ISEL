@@ -6,26 +6,27 @@ It is organized by year, semester and subject. For every subject it was included
 
 The diagram of the bachelors program:
 
-![LeimPlano](https://github.com/user-attachments/assets/27291093-020e-461b-b279-39a075744854)
+![LeimDiagram drawio_2](https://github.com/user-attachments/assets/63e9cc55-c311-4b19-b9d8-1c2b8afd0981)
+
 
 # 1st Semester
-## MAE - Applied Mathematics to Engineering -  Circuit Trajectory Simulator:
+## [MAE - Applied Mathematics to Engineering - Circuit Trajectory Simulator](1st_Semester/MAE/)
 Project developed for the Mathematics Applied to Engineering course, simulates a car moving along a custom-designed circuit. The program ensures the object follows
 a parametrized path composed of at least three distinct segments, including straight, parabolic sections and elliptical curves. Key features include adjustable speeds, 
 dynamic orientation of the object, and real-time velocity display. Built with Python and Pygame, the project demonstrates parametric equations and trajectory modeling.
 
-## MDP - Discrete Mathematics and Programming - Connect 4 Game Engine & AI:
+## [MDP - Discrete Mathematics and Programming - Connect 4 Game Engine & AI](1st_Semester/MDP/)
 Developed a complete Connect 4 implementation in Python featuring a game engine with recursive win detection (horizontal/vertical/diagonal pattern matching).
 The modular architecture separates core game logic (j4_em_linha_motor.py) from decision-making (j4_em_linha_agente.py), allowing integration with both text-based
 and PyGame interfaces. The system implements discrete math concepts for board state evaluation and includes multiple difficulty levels through heuristic optimization.
 
-## SA - Sensors and Actuators - Automated Pet Feeder System:
+## [SA - Sensors and Actuators - Automated Pet Feeder System](1st_Semester/SA/)
 Project developed for the Sensors and Actuators course, featuring an Arduino-based automated pet feeder that dispenses food when triggered by a button press and validated
 by weight detection. The system integrates sensors (ultrasonic distance sensor, button, potentiometer) and actuators (servo motor, LEDs, piezo buzzer) to create an interactive feeding mechanism.
 Key functionalities include weight verification, timed access control, and auditory/visual feedback. Developed using TinkerCad for simulation and Arduino IDE for embedded programming, the project
 demonstrates practical applications of state machines and sensor-actuator coordination in IoT devices.
 
-## TI - Information Technology - Recursion & Command Line Automation:
+## [TI - Information Technology - Recursion & Command Line Automation](1st_Semester/TI/)
 Developed Java recursive algorithms for string processing (palindrome detection, first occurrence indexing, and whitespace normalization) 
 and created 12 batch scripts for advanced filesystem automation (drive mapping, directory traversal, file operations). Implemented recursive methods with O(n) 
 efficiency and designed command-line workflows using relative paths, xcopy operations, and FOR loops with delayed variable expansion.
