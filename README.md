@@ -43,7 +43,7 @@ transformations using homogeneous coordinates. Designed to integrate with a ray 
 to triangular meshes, which are then rendered into PPM images via a companion RayTracer class. The work demonstrates core graphics principles by manipulating 3D objects in a virtual
 scene and validating results through rendered outputs.
 
-## [MOP - Modeling and Programming - Football Competition Simulator](https://github.com/XPMASX/Computer-and-Multimedia-Engineering-BSc-ISEL/tree/main/2_Semester/MOP)
+## [MOP - Modeling and Programming - Football Competition Simulator](https://github.com/XPMASX/Computer-and-Multimedia-Engineering-BSc-ISEL/tree/main/2_Semester/MoP)
 Developed as part of the Modeling and Programming course, this Java application simulates football leagues and tournaments with a focus on 
 object-oriented design, graphical user interfaces (GUI), and persistent data storage in XML. The project demonstrates mastery of software modeling, 
 event-driven programming, and data management, offering users an interactive way to simulate and track competitions.
